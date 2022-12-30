@@ -210,7 +210,7 @@ plt.show()
 ```
 The above code will create a line plot of the Series:
 
-RESİM GELECEK.
+![output](https://user-images.githubusercontent.com/63750425/210114887-4083e6e9-b26e-4d6b-b5b4-060af65244e8.png)
 
 - Bar plots: You can use the plot.bar method to create a bar plot of a DataFrame. For example:
 
@@ -224,7 +224,7 @@ plt.show()
 
 The above code will create a bar plot of the DataFrame:
 
-RESİM EKLENECEK.
+![output2](https://user-images.githubusercontent.com/63750425/210114903-415e3ebc-6ff0-4b66-b7f0-0e5568b84d3a.png)
 
 
 - Histograms: You can use the plot.hist method to create a histogram of a Series. A histogram is a graphical representation of the distribution of a dataset, and can be used to identify patterns and outliers in the data. For example:
@@ -239,7 +239,7 @@ plt.show()
 
 The above code will create a histogram of the Series:
 
-RESİM GELECEK
+![output3](https://user-images.githubusercontent.com/63750425/210114924-db818bcd-76a8-456c-8104-487ebd8195d1.png)
 
 There are many other types of plots and charts you can create using Pandas and its visualization libraries. I encourage you to explore the documentation and try creating different types of plots to gain a deeper understanding of your data.
 
