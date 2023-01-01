@@ -47,7 +47,7 @@ plt.show()
 
 The above code will create a line plot of the data:
 
-RESİM GELECEK.
+![line plot](https://user-images.githubusercontent.com/63750425/210167110-f00eb6e5-a089-48a5-ada3-4da3eb14e8a1.png)
 
 You can also customize the appearance of the line plot by setting various properties of the plot function. For example:
 
@@ -67,7 +67,7 @@ plt.show()
 ```
 The above code will create a line plot with a red dashed line and circles as markers:
 
-rESİM gELECEK.
+![lineplot2](https://user-images.githubusercontent.com/63750425/210167114-96b41534-ac7c-4d4f-b400-7de5e0335645.png)
 
 
 ## Scatter plots
@@ -93,7 +93,7 @@ plt.show()
 The above code will create a scatter plot of the data:
 
 
-Resim GELECEK.
+![scatterplot](https://user-images.githubusercontent.com/63750425/210167118-253d368f-ff14-4dc5-828d-61f1fb7caa0b.png)
 
 
 
@@ -119,7 +119,7 @@ plt.show()
 The above code will create a scatter plot with green crosses as markers:
 
 
-rESİM gELECEK
+![scatterplot2](https://user-images.githubusercontent.com/63750425/210167120-3fedbca3-c3f0-4797-a1a3-4707438347f5.png)
 
 
 ## Bar plots
@@ -143,7 +143,8 @@ plt.show()
 
 The above code will create a bar plot of the data:
 
-RESİM GELECEK
+![barplot](https://user-images.githubusercontent.com/63750425/210167123-1dcb5faf-e726-4c48-bd48-ad7f3aac0e1b.png)
+
 
 You can also customize the appearance of the bar plot by setting various properties of the bar function. For example:
 
@@ -165,7 +166,7 @@ plt.show()
 
 The above code will create a bar plot with pink, semi-transparent bars that are slightly narrower than the default width:
 
-RESİM GELECEK
+![barplot2](https://user-images.githubusercontent.com/63750425/210167128-f4547f12-3675-4fff-abe9-14d666bfb045.png)
 
 
 ## Pie charts
@@ -190,7 +191,7 @@ plt.show()
 
 The above code will create a pie chart of the data:
 
-RESİM GELECEK
+![piechats](https://user-images.githubusercontent.com/63750425/210167131-7519e41f-f6d2-4e90-8541-0d2eaeacb79f.png)
 
 Like with other types of plots, you can customize the appearance of the pie chart by setting various properties of the pie function. For example:
 
@@ -210,7 +211,7 @@ plt.show()
 
 The above code will create a pie chart with a "exploded" slice and percentage labels:
 
-RESİM GELECEK
+![piechatrs2](https://user-images.githubusercontent.com/63750425/210167134-50556285-221a-41bf-9dd1-f4b5db054936.png)
 
 
 
