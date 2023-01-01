@@ -218,10 +218,11 @@ The above code will create a pie chart with a "exploded" slice and percentage la
 ## Other types of plots
 In addition to the types of plots covered in this tutorial, Matplotlib offers many other types of plots and charts you can create. Some examples include:
 
-Box plots: used to visualize the distribution of a dataset
-Violin plots: similar to box plots, but with a rotated kernel density plot on each side
-Stem plots: used to plot discrete data in a way that emphasizes the underlying structure
-Quiver plots: used to visualize vector fields
+- Box plots: used to visualize the distribution of a dataset
+- Violin plots: similar to box plots, but with a rotated kernel density plot on each side
+- Stem plots: used to plot discrete data in a way that emphasizes the underlying structure
+- Quiver plots: used to visualize vector fields
+
 I encourage you to explore the documentation and try creating different types of plots to gain a deeper understanding of your data.
 
 I hope this tutorial has been helpful in introducing you to the Matplotlib library for data visualization in Python.
