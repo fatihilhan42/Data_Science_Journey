@@ -5,23 +5,23 @@ Welcome to the "Matplotlib Tutorial" of the "Introduction to Data Science in Pyt
 ## Installation
 To use Matplotlib, you will need to have it installed on your system. You can install Matplotlib using pip, the Python package manager:
 
-
+```Python
 pip install matplotlib
-
+```
 
 Alternatively, you can install Matplotlib using conda, the package manager for the Anaconda distribution of Python:
 
-
+```Python
 conda install matplotlib
-
+```
 
 ## Importing and using Matplotlib
 
 To use Matplotlib in your Python code, you will need to import it using the following import statement:
 
-
+```Python
 import matplotlib.pyplot as plt
-
+```
 
 This import statement creates an alias plt for the pyplot module of Matplotlib, which provides a high-level interface for creating plots and charts.
 
@@ -30,7 +30,7 @@ This import statement creates an alias plt for the pyplot module of Matplotlib, 
 
 One of the most common types of plots in Matplotlib is the line plot. You can create a line plot using the plot function of the pyplot module. For example:
 
-
+```Python
 import matplotlib.pyplot as plt
 
 # Create some data
@@ -42,6 +42,8 @@ plt.plot(x, y)
 
 # Show the plot
 plt.show()
+```
+
 
 The above code will create a line plot of the data:
 
@@ -49,7 +51,7 @@ RESİM GELECEK.
 
 You can also customize the appearance of the line plot by setting various properties of the plot function. For example:
 
-
+```Python
 import matplotlib.pyplot as plt
 
 # Create some data
@@ -62,6 +64,7 @@ plt.plot(x, y, color='red', linewidth=2, linestyle='dashed', marker='o', markers
 # Show the plot
 plt.show()
 
+```
 The above code will create a line plot with a red dashed line and circles as markers:
 
 rESİM gELECEK.
@@ -72,7 +75,7 @@ rESİM gELECEK.
 Another common type of plot in Matplotlib is the scatter plot. You can create a scatter plot using the scatter function of the pyplot module. For example:
 
 
-
+```Python
 import matplotlib.pyplot as plt
 
 # Create some data
@@ -84,7 +87,7 @@ plt.scatter(x, y)
 
 # Show the plot
 plt.show()
-
+```
 
 
 The above code will create a scatter plot of the data:
@@ -97,7 +100,7 @@ Resim GELECEK.
 Like with line plots, you can customize the appearance of the scatter plot by setting various properties of the scatter function. For example:
 
 
-
+```Python
 import matplotlib.pyplot as plt
 
 # Create some data
@@ -109,6 +112,7 @@ plt.scatter(x, y, color='green', marker='x', s=100)
 
 # Show the plot
 plt.show()
+```
 
 
 
@@ -121,6 +125,8 @@ rESİM gELECEK
 ## Bar plots
 Bar plots are used to visualize data in the form of vertical or horizontal bars. You can create a bar plot using the bar function of the pyplot module. For example:
 
+
+```Python
 import matplotlib.pyplot as plt
 
 # Create some data
@@ -132,7 +138,7 @@ plt.bar(x, y)
 
 # Show the plot
 plt.show()
-
+```
 
 
 The above code will create a bar plot of the data:
@@ -141,6 +147,8 @@ RESİM GELECEK
 
 You can also customize the appearance of the bar plot by setting various properties of the bar function. For example:
 
+
+```Python
 import matplotlib.pyplot as plt
 
 # Create some data
@@ -152,6 +160,7 @@ plt.bar(x, y, color='pink', alpha=0.5, width=0.5)
 
 # Show the plot
 plt.show()
+```
 
 
 The above code will create a bar plot with pink, semi-transparent bars that are slightly narrower than the default width:
@@ -163,6 +172,7 @@ RESİM GELECEK
 Pie charts are used to visualize data in the form of a circle divided into slices. You can create a pie chart using the pie function of the pyplot module. For example:
 
 
+```Python
 import matplotlib.pyplot as plt
 
 # Create some data
@@ -174,7 +184,7 @@ plt.pie(sizes, labels=labels)
 
 # Show the plot
 plt.show()
-
+```
 
 
 
@@ -184,7 +194,7 @@ RESİM GELECEK
 
 Like with other types of plots, you can customize the appearance of the pie chart by setting various properties of the pie function. For example:
 
-
+```Python
 import matplotlib.pyplot as plt
 
 # Create some data
@@ -196,7 +206,7 @@ plt.pie(sizes, labels=labels, explode=[0, 0.1, 0, 0], shadow=True, autopct='%1.1
 
 # Show the plot
 plt.show()
-
+```
 
 The above code will create a pie chart with a "exploded" slice and percentage labels:
 
