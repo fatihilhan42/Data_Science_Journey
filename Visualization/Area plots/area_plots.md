@@ -30,7 +30,8 @@ plt.show()
 
 ```
 
-1.resim
+![1 resim](https://user-images.githubusercontent.com/63750425/212307370-2b815027-65c4-4150-8b7c-92a299fc5449.png)
+
 
 This will create a basic area plot, where the x-axis represents the time and the y-axis represents the values. The area between the line and the x-axis is filled with color and it represents the relative importance of different variables.
 
@@ -59,7 +60,8 @@ plt.legend()
 plt.show()
 ```
 
-2.resim
+![2 resim](https://user-images.githubusercontent.com/63750425/212307395-b6cdcc73-243d-4b40-bde6-7b6cd259be21.png)
+
 
 This will create a stacked area plot, where the different datasets are stacked on top of each other. The stackplot() function takes as input the x-axis values, the y-axis values for each dataset, and an optional list of labels for each dataset. By passing the x and y values for the two datasets and the labels to the stackplot() function, we can create a stacked area plot with these datasets.
 
@@ -92,7 +94,8 @@ plt.legend()
 plt.show()
 ```
 
-3.resim 
+![3 resim](https://user-images.githubusercontent.com/63750425/212307442-cda7da6e-9569-4445-ad33-cc6366e92542.png)
+
 
 In this example, we have added alpha parameter to the fill_between() function, which determines the transparency of the area. Also, the grid function is used to add the grid on the chart. Additionally, you can customize the appearance of the chart by modifying the properties of the plot and the chart. As you can see, the title and axis labels can also be customized by passing the desired fontsize parameter.
 
