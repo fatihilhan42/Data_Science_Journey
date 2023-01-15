@@ -22,7 +22,8 @@ plt.ylabel('Values')
 # Show the chart
 plt.show()
 ```
-1.resim
+![1](https://user-images.githubusercontent.com/63750425/212532356-5ec8857f-1652-4896-b41f-f079cd96fe90.png)
+
 
 This will create a basic bar chart, where the x-axis represents the categories and the y-axis represents the values. The length of each bar represents the value of the data.
 
@@ -31,7 +32,8 @@ You can also create a Horizontal bar chart by using the barh() function instead 
 ```Python
 plt.barh(categories, values)
 ```
-2.resim
+![2](https://user-images.githubusercontent.com/63750425/212532359-d9dad484-c173-4c96-939b-44b7dcf148be.png)
+
 
 
 ### Customizing the Appearance
@@ -58,7 +60,8 @@ plt.ylabel('Values', fontsize=12)
 # Show the chart
 plt.show()
 ```
-3.resim
+
+![3](https://user-images.githubusercontent.com/63750425/212532366-938a68ce-baa3-48b1-9d26-9e0f5047dce8.png)
 
 You can also create stacked bar chart by passing the parameter bottom.
 
