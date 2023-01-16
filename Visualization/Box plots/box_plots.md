@@ -24,7 +24,8 @@ plt.show()
 
 ```
 
-1.resim
+![1 resim](https://user-images.githubusercontent.com/63750425/212605474-b6a9ffc5-4632-4c10-a2af-e521fa679a8f.png)
+
 
 This will create a basic box plot, where the x-axis represents the values and the y-axis represents the different datasets. The box represents the interquartile range (IQR) of the dataset, which is the middle 50% of the data, while the whiskers represent the minimum and maximum values of the dataset. Outliers are represented by individual points outside the whiskers.
 
@@ -72,7 +73,8 @@ plt.yticks([1, 2, 3], ['data 1', 'data 2', 'data 3'])
 # Show the plot
 plt.show()
 ```
-2.resim
+![2 resim](https://user-images.githubusercontent.com/63750425/212605488-1ebdfa3b-60ce-4ea3-953d-93af2891ca58.png)
+
 
 The code snippet above demonstrates how you can change the appearance of the different elements of the box plot, such as the whiskers, caps, medians, fliers, and boxes. By using the set() method and passing in different properties such as color, linewidth, and style, you can customize the appearance of the box plot to make it more visually appealing.
 
@@ -85,4 +87,4 @@ By following the examples and explanations provided in this tutorial, you should
 
 Please feel free to contact me if you have any questions or suggestions.
 
-Thank you for reading!
+**Thank you for reading!**
