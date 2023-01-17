@@ -23,7 +23,8 @@ plt.show()
 
 ```
 
-1.resim 
+![1 resim](https://user-images.githubusercontent.com/63750425/212813289-9e1aa8f2-f77c-4258-b0c4-4bc9ed67e011.png)
+
 
 
 This will create a basic heatmap, where the color of each cell represents the value at that point on the grid. The cmap parameter is used to specify the color map to use for the heatmap. There are many built-in color maps to choose from, such as hot, jet, and cool.
@@ -54,7 +55,8 @@ plt.title('Customized Heatmap Example')
 plt.show()
 ```
 
-2.resim
+![2 resim](https://user-images.githubusercontent.com/63750425/212813302-e08e37c0-0cc3-4fcb-a2b7-4656fde2eeae.png)
+
 
 In this example, we have changed the color map to cool and added grid lines to the chart by using the grid() method. We also added title to the chart. By customizing the appearance of the heatmap, you can make it more visually appealing and easier to interpret.
 
@@ -79,7 +81,8 @@ plt.title('Advanced Heatmap Example')
 # Show the plot
 plt.show()
 ```
-3.resim
+![3 resim](https://user-images.githubusercontent.com/63750425/212813329-6624e6d7-19e4-4bda-9fee-c4bbd578c7c3.png)
+
 
 In this example, we have used seaborn's heatmap function and passed in the dataframe, added annotation to each cell with format of 2 decimal points and used cool color map.
 
