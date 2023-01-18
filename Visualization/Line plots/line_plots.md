@@ -26,6 +26,7 @@ plt.ylabel('Y-axis')
 plt.show()
 
 ```
+![1](https://user-images.githubusercontent.com/63750425/213125770-9a3a99ef-fb1c-4c3c-bb65-535fdb17e7a6.png)
 
 This will create a basic line plot with the x and y data you provided. The title, xlabel, and ylabel functions are used to add a title and labels to the plot.
 
@@ -50,6 +51,7 @@ plt.grid()
 # Show the plot
 plt.show()
 ```
+![2](https://user-images.githubusercontent.com/63750425/213125813-89c6387c-4124-481e-adbe-ef589aff40a1.png)
 
 In this example, the line is plotted using the plot() function, with the following additional parameters:
 
@@ -81,6 +83,7 @@ plt.legend()
 # Show the plot
 plt.show()
 ```
+![3](https://user-images.githubusercontent.com/63750425/213125837-38ac74bc-f22f-4c6d-9517-a3bd7c8926d4.png)
 
 
 This will create a plot with two lines, one in red and one in blue, and a label for each line, which can be helpful for identifying the different lines in the plot.
