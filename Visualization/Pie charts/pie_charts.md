@@ -21,6 +21,7 @@ plt.title('Simple Pie Chart Example')
 plt.show()
 
 ```
+![1](https://user-images.githubusercontent.com/63750425/213431484-fd5abe4c-f233-44f4-8a7c-84ccdcb1f759.png)
 
 This will create a basic pie chart, where the data represents the proportion of different categories in the dataset. The labels parameter is used to specify the labels for each slice of the pie chart.
 
@@ -44,6 +45,7 @@ plt.title('Customized Pie Chart Example')
 # Show the plot
 plt.show()
 ```
+![2](https://user-images.githubusercontent.com/63750425/213431503-d79ce3b0-cabd-4423-a557-14cded6d7ce9.png)
 
 In this example, we have used the colors parameter to specify the color of each slice and autopct parameter to show the percentage of each slice. Also explode parameter is used to move out one of the slice. By customizing the appearance of the pie chart, you can make it more visually appealing and easier to interpret.
 
@@ -67,6 +69,8 @@ ax.pie(data, labels=labels, colors=colors, autopct='%1.1f%%', explode=(0.1, 0, 0
 ax.set(aspect="equal", title='Donut Chart Example')
 plt.show()
 ```
+![3](https://user-images.githubusercontent.com/63750425/213431527-efbadef8-40e3-4f3d-be68-e2925b082d03.png)
+
 This will create a donut chart with the same data and labels as the basic pie chart, but with a hole in the center. The radius parameter is used to control the size of the hole.
 
 ## Using Seaborn
@@ -84,6 +88,7 @@ sns.pieplot(data, labels=labels)
 plt.title("Pie Chart using seaborn")
 plt.show()
 ```
+![4](https://user-images.githubusercontent.com/63750425/213431555-9ec100fd-3692-439e-b20d-25a9479eac6a.png)
 
 This will create a basic pie chart using seaborn library. You can customize the appearance of the chart by using various parameters provided by the seaborn library.
 
