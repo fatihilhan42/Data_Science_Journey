@@ -3,7 +3,7 @@ A scatter plot is a way to display data points on a 2-dimensional graph. It is u
 
 This folder contains examples and explanations of how to create scatter plots in Python using the matplotlib library. The examples will cover basic scatter plots, as well as how to customize the appearance of the plots.
 
-##Creating a basic scatter plot
+## Creating a basic scatter plot
 To create a basic scatter plot, you need to provide the x and y data for the plot, and then call the scatter function to create the plot. Here's an example:
 
 ```Python
