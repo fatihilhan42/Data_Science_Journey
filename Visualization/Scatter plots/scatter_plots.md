@@ -24,6 +24,7 @@ plt.ylabel('Y-axis')
 # Show the plot
 plt.show()
 ```
+![1](https://user-images.githubusercontent.com/63750425/213683741-cccb24bb-28d6-4076-95fc-4ee74484001f.png)
 
 This will create a basic scatter plot with the x and y data you provided. The title, xlabel, and ylabel functions are used to add a title and labels to the plot.
 
@@ -48,6 +49,7 @@ plt.grid()
 # Show the plot
 plt.show()
 ```
+![2](https://user-images.githubusercontent.com/63750425/213683758-a59bb88e-1faa-40fa-b0dc-9197bc5ff70b.png)
 
 In this example, the scatter plot is plotted using the scatter() function, with the following additional parameters:
 
@@ -82,12 +84,12 @@ plt.ylabel('Y-axis')
 # Show the plot
 plt.show()
 ```
+![3](https://user-images.githubusercontent.com/63750425/213683781-363e84b9-aa7c-4daf-93b7-013ad488b001.png)
 
 This will create a scatter plot where the color of the markers is determined by the values in the c array, and the colormap is set to viridis. The colorbar function is used to add a colorbar to the plot, which shows the mapping between the data values and the colors.
 
 You can also use other properties and functions provided by matplotlib library to customize the appearance of the scatter plots and make it more informative and easy to understand.
 
-Please let me know if you have any questions about the content or if there's anything else I can help with.
 
 
 
