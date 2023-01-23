@@ -100,6 +100,8 @@ Another way to overcome the limitations of pie charts is to use variations of pi
 
 Finally, when creating pie charts or any other data visualization, it's important to keep in mind the audience and the message you want to convey. Choose the right kind of visualization and customize it appropriately to make it easy to understand and effective in communicating your data insights.
 
+**If you have any questions, please do not hesitate to ask. Good day...**
+
 
 
 

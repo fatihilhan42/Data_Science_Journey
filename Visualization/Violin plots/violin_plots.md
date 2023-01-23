@@ -22,6 +22,7 @@ plt.title("Violin Plot Example")
 # Show the plot
 plt.show()
 ```
+![1](https://user-images.githubusercontent.com/63750425/213859271-8caec396-b4b8-4300-8d64-ec5c0cc991d2.png)
 
 This will create a basic violin plot with the data you provided. The title function is used to add a title to the plot.
 
@@ -44,6 +45,7 @@ plt.title("Customized Violin Plot Example")
 # Show the plot
 plt.show()
 ```
+![2](https://user-images.githubusercontent.com/63750425/213859274-b0ba17ff-a229-4884-8979-613cd34cdd5a.png)
 
 
 In the above example, we passed color='skyblue' to change the color of the violin, and inner='stick' to add markers inside the violin showing the individual observations.
@@ -68,12 +70,13 @@ plt.title("Split Violin Plot Example")
 # Show the plot
 plt.show()
 ```
+![3](https://user-images.githubusercontent.com/63750425/213859279-fca5e546-1359-4292-81f6-eaef0c338ee1.png)
 
 This will create a violin plot for each value of the groups variable, and split the violin in half to show the distribution of the data for each group.
 
 You can also use other properties and functions provided by seaborn library to customize the appearance of the violin plots and make it more informative and easy to understand.
 
-Please let me know if you have any questions about the content or if there's anything else I can help with.
+
 
 
 
