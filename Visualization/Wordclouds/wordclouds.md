@@ -23,6 +23,7 @@ plt.axis("off")
 plt.show()
 
 ```
+![1](https://user-images.githubusercontent.com/63750425/214024870-70423861-4e02-495e-96bd-6903f910e0b5.png)
 
 This will create a basic word cloud with the text you provided. The words in the cloud will be shown in different sizes based on their frequency in the text.
 
@@ -47,13 +48,10 @@ plt.axis("off")
 plt.show()
 
 ```
+![2](https://user-images.githubusercontent.com/63750425/214024891-0602414e-5a18-4bf4-92f9-bb238a7b5c4f.png)
+
+
 In this example, we passed background_color='white' to set the background color of the cloud to white, font_path='arial.ttf' to set the font to Arial, max_words=50 to limit the number of words in the cloud to 50, contour_color='black' and contour_width=3 to add a black border around the words with width of 3 pixels.
 
 You can also use the generate_from_frequencies method to generate a word cloud from a dictionary of word frequencies, and use the mask parameter to create a word cloud in the shape of an image.
-
-Please let me know if you have any questions about the content or if there's anything else I can help with.
-
-
-
-
 
