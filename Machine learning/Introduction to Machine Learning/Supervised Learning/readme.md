@@ -10,5 +10,3 @@ This folder contains resources and tutorials on supervised learning in Python, c
 - Real-world examples
 
 All tutorials and examples will be provided with python implementation and explanations.
-
-Please browse through the files in this folder to find the topics you're interested in, and don't hesitate to reach out if you have any questions or need further help.
