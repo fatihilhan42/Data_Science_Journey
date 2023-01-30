@@ -6,7 +6,7 @@ In linear regression, the goal is to find the line of best fit that minimizes th
 
 y = $\beta_0$ + $\beta_1$ * x
 
-where y is the dependent variable, x is the independent variable, $\beta_0$ is the y-intercept, and b1 is the slope of the line. The coefficients b0 and $\beta_1$ are determined using the method of least squares, which minimizes the sum of the squared differences between the predicted values and the true values.
+where y is the dependent variable, x is the independent variable, $\beta_0$ is the y-intercept, and $\beta_1$ is the slope of the line. The coefficients $\beta_0$ and $\beta_1$ are determined using the method of least squares, which minimizes the sum of the squared differences between the predicted values and the true values.
 
 Linear regression can be used for both simple and multiple regression, depending on the number of independent variables. Simple linear regression is used when there is only one independent variable, while multiple linear regression is used when there are two or more independent variables.
 
