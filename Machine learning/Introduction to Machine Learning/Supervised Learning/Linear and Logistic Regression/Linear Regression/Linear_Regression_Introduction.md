@@ -4,9 +4,9 @@ Linear regression is a method used to model the relationship between a dependent
 
 In linear regression, the goal is to find the line of best fit that minimizes the difference between the predicted values and the true values. The line of best fit is represented by the equation:
 
-y = b0 + b1 * x
+y = $\beta_0$ + $\beta_1$ * x
 
-where y is the dependent variable, x is the independent variable, b0 is the y-intercept, and b1 is the slope of the line. The coefficients b0 and b1 are determined using the method of least squares, which minimizes the sum of the squared differences between the predicted values and the true values.
+where y is the dependent variable, x is the independent variable, $\beta_0$ is the y-intercept, and b1 is the slope of the line. The coefficients b0 and $\beta_1$ are determined using the method of least squares, which minimizes the sum of the squared differences between the predicted values and the true values.
 
 Linear regression can be used for both simple and multiple regression, depending on the number of independent variables. Simple linear regression is used when there is only one independent variable, while multiple linear regression is used when there are two or more independent variables.
 
