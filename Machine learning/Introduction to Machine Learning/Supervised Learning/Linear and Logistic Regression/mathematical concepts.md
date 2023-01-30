@@ -3,7 +3,7 @@ Linear regression is a technique for modeling the relationship between a depende
 
 The equation for a simple linear regression model is given by:
 
-y = beta0 + beta1 * x
+y = $\beta_0$ + $\beta_1$ * x
 
 where y is the target variable, x is the independent variable, and $\beta_0$ and $\beta_1$ are the coefficients of the model. The coefficients represent the slope and y-intercept of the line of best fit. The goal is to find the values of $\beta_0$ and $\beta_1$ that minimize the difference between the predicted values and the actual values, this is done by using optimization algorithm such as gradient descent or normal equation.
 
@@ -14,7 +14,7 @@ Logistic regression is a technique for modeling the relationship between a depen
 
 The equation for a simple logistic regression model is given by:
 
-p = 1 / (1 + e^(-(beta0 + beta1 * x)))
+p = 1 / (1 + e^(-( $\beta_0$ + $\beta_1$ * x)))
 
  
 where p is the probability of the target variable being 1, x is the independent variable, and $\beta_0$ and $\beta_1$ are the coefficients of the model. The coefficients represent the slope and y-intercept of the line of best fit. The goal is to find the values of $\beta_0$ and $\beta_1$ that maximize the likelihood of the observed data.
