@@ -55,7 +55,7 @@ plt.plot(X_train[:,0], reg.predict(X_train), color='r')
 plt.show()
 ```
 
-2.resim 
+![2 resim](https://user-images.githubusercontent.com/63750425/215700582-4132ffcb-df17-42aa-a991-ec881e36ae45.png)
 
 
 ```Python
@@ -86,7 +86,8 @@ plt.show()
 [61.90983722]
 -1.7070695847965252 
 
-1.Resim 
+![1](https://user-images.githubusercontent.com/63750425/215700633-0129a077-12a6-46a3-9e2a-1689dda81bb2.png)
+
 
 This code generates a sample dataset using the make_regression function from scikit-learn, which creates a linear dataset with a specified number of samples and features. Then, it creates a LinearRegression model, fits it to the data, and prints the model coefficients (slope and intercept). Finally, it uses the model to predict the output for the input data and plots the data points and the model predictions.
 
