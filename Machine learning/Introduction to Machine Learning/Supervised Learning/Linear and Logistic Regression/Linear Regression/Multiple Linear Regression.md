@@ -4,7 +4,7 @@ Multiple linear regression is a type of linear regression that allows you to mod
 
 The equation for multiple linear regression is:
 
-$ y = b_0 + b_1x_1 + b_2x_2 + ... + b_nx_n $
+$y = b_0 + b_1x_1 + b_2x_2 + ... + b_nx_n$
 
 where y is the dependent variable, $x_1, x_2, ..., x_n$ are the independent variables, and $b_0, b_1, b_2, ..., b_n$ are the coefficients.
 
