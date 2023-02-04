@@ -1,10 +1,10 @@
-1. A brief introduction to logistic regression and when it is typically used.
+### **1. A brief introduction to logistic regression and when it is typically used.**
 
 Logistic regression is a type of supervised learning algorithm that is used for classification problems. It is a statistical method that is used to fit a model to a dataset, where the goal is to predict a binary outcome (e.g. a yes/no, true/false, or 0/1 response) based on one or more predictor variables (also known as features or input variables). The basic idea behind logistic regression is to use a linear function of the input variables to model the probability of the binary outcome.
 
 Logistic regression is typically used when the response variable is binary, although it can also be used for ordinal or multinomial data. It is a widely used method in many fields, including medical research, social sciences, marketing, and finance. Logistic regression is used to predict the probability of an event occurring, such as a customer buying a product, a patient developing a certain disease, or a voter supporting a particular candidate. It can also be used to model the relationship between multiple predictor variables and the binary outcome.
 
-2. Examples of how to load and preprocess data for logistic regression using scikit-learn and Python.
+### **2. Examples of how to load and preprocess data for logistic regression using scikit-learn and Python.**
 
 When using scikit-learn to perform logistic regression, data must first be loaded and preprocessed before being used to fit a model. Here's an example of how to load a dataset and preprocess it for logistic regression using scikit-learn: 
 
@@ -32,7 +32,7 @@ X_test = scaler.transform(X_test)
 In this example, we first load the iris dataset using the load_iris function from scikit-learn. Then, we split the dataset into training and test sets using the train_test_split function. Finally, we standardize the data using the StandardScaler class from scikit-learn. This is done by first fitting the scaler to the training data and then transforming both the training and test data using the transform method.
 
 
-3. How to fit a logistic regression model to data using scikit-learn, including how to handle categorical variables and how to interpret the model coefficients.
+### **3. How to fit a logistic regression model to data using scikit-learn, including how to handle categorical variables and how to interpret the model coefficients.**
 
 Here is an example of how you might use scikit-learn to fit a logistic regression model to data:
 
@@ -56,7 +56,7 @@ To handle categorical variables, you can use one-hot encoding to convert the cat
 The coefficients of the logistic regression model can be interpreted as the change in the log odds of the response variable for a one unit change in the predictor variable, holding all other predictors constant. The magnitude of the coefficients can indicate the strength of the relationship between the predictor and response variables, and the sign of the coefficients can indicate the direction of the relationship (positive or negative).
 
 
-4. How to evaluate the performance of a logistic regression model using metrics such as accuracy, precision, recall, and the area under the ROC curve.
+### **4. How to evaluate the performance of a logistic regression model using metrics such as accuracy, precision, recall, and the area under the ROC curve.**
 
 In order to evaluate the performance of a logistic regression model, we can use a variety of metrics such as accuracy, precision, recall, and the area under the ROC curve (AUC).
 
@@ -72,7 +72,7 @@ For ROC-AUC score, we need to use the **roc_auc_score()** function. First, we ne
 
 It is important to keep in mind that the choice of evaluation metrics depends on the problem and the goal of the analysis.
 
-5. Discussion of regularization techniques for logistic regression, including L1 and L2 regularization, and how to implement them in scikit-learn.
+### **5. Discussion of regularization techniques for logistic regression, including L1 and L2 regularization, and how to implement them in scikit-learn.**
 
 In logistic regression, regularization helps to prevent overfitting by adding a penalty term to the loss function. There are two main types of regularization used in logistic regression: L1 and L2 regularization.
 
@@ -106,7 +106,7 @@ log_reg.fit(X_train, y_train)
 ```
 It is important to note that in both case, the smaller the value of C, the stronger the regularization.
 
-6. Some examples of visualizing the logistic regression model's performance using plots such as ROC curves and precision-recall curves.
+### **6. Some examples of visualizing the logistic regression model's performance using plots such as ROC curves and precision-recall curves.**
 
 Here is an example of how to visualize the performance of a logistic regression model using an ROC curve in Python using scikit-learn:
 
@@ -142,6 +142,10 @@ for i in range(3):
 pyplot.show()
 
 ```
+
+![output](https://user-images.githubusercontent.com/63750425/216758673-77f2049b-0942-4b15-8581-e6e2ec80be52.png)
+![output2](https://user-images.githubusercontent.com/63750425/216758677-7eacd024-3349-4961-b203-81d49b596be3.png)
+![output3](https://user-images.githubusercontent.com/63750425/216758680-7577a1cf-b5e5-4ee9-9f9f-99650dd839c5.png)
 
 This code will fit a logistic regression model to the training data, make predictions on the test set, and then use the roc_curve function to calculate the false positive rate and true positive rate for different threshold settings. The auc function is then used to calculate the area under the ROC curve, and the resulting ROC curve is plotted using matplotlib. The plot will show the trade-off between the false positive rate and true positive rate as the threshold for classifying a sample as positive is varied.
 
