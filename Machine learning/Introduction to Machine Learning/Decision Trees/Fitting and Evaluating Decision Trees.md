@@ -67,8 +67,8 @@ print("F1-score: %0.2f" % f1)
 ```
 These metrics can provide a general idea of how well the decision tree model is performing, but it's important to consider the specific use case and choose the appropriate metrics for evaluating the model's performance. 
 
-Accuracy: 0.98
+**Accuracy: 0.98
 Precision: 0.98
 Recall: 0.98
-F1-score: 0.98
+F1-score: 0.98**
 
