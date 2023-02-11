@@ -38,8 +38,9 @@ plt.figure(figsize=(30, 15))
 plot_tree(clf, filled=True, feature_names=iris.feature_names, class_names=iris.target_names)
 plt.show()
 ```
+![1](https://user-images.githubusercontent.com/63750425/218250896-6ebe7890-2c7f-456a-b596-ee0dbb21c384.png)
 
-1.resim
+
 
 In this example, the decision tree is plotted using the plot_tree function from the scikit-plot library. The tree is plotted using the X_train data, which is the training data used to fit the model. The plot_io argument is set to False in order to plot the tree without showing the input and output nodes.
 
