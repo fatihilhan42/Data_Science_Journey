@@ -84,12 +84,12 @@ reg = LogisticRegression(solver='lbfgs').fit(X, y)
 #### Model parameters
 Linear and logistic regression models have some parameters that can be adjusted to improve the model performance.
 
-- Linear Regression:
+- **Linear Regression:**
 	- fit_intercept : boolean, optional, default True 
 	  whether to calculate the intercept for this model. If set to False, no intercept will be used in calculations (e.g. data is expected to be already centered).
 	- normalize : boolean, optional, default False
           This parameter is ignored when fit_intercept is set to False. If True, the regressors X will be normalized before regression.
-- Logistic Regression:
+- **Logistic Regression:**
 	- penalty : str, ‘l1’, ‘l2’, ‘elasticnet’ or ‘none’, optional (default=’l2’)
 	  Used to specify the norm used in the penalization.
 	-C : float, optional (default=1.0)

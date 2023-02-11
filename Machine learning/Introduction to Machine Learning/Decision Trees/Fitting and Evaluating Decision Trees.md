@@ -35,17 +35,17 @@ tree.fit(X_train, y_train)
 ### Evaluating the Performance of a Decision Tree Model
 Once a decision tree model has been fit to data, we need to evaluate its performance to determine how well it is able to make predictions. There are several metrics that can be used to evaluate the performance of a decision tree model, including accuracy, precision, recall, and the F1-score.
 
-- Accuracy: The fraction of correct predictions made by the model.
+- **Accuracy:** The fraction of correct predictions made by the model.
 
-- Confusion matrix: A table that summarizes the number of true positive, true negative, false positive, and false negative predictions made by the model.
+- **Confusion matrix:** A table that summarizes the number of true positive, true negative, false positive, and false negative predictions made by the model.
 
-- Precision: The fraction of positive predictions that are actually positive.
+- **Precision:** The fraction of positive predictions that are actually positive.
 
-- Recall: The fraction of actual positive cases that were correctly predicted as positive by the model.
+- **Recall:** The fraction of actual positive cases that were correctly predicted as positive by the model.
 
-- F1-score: The harmonic mean of precision and recall.
+- **F1-score:** The harmonic mean of precision and recall.
 
-- Here's an example of how to calculate these metrics for a decision tree model using scikit-learn:
+Here's an example of how to calculate these metrics for a decision tree model using scikit-learn:
 
 ```python
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
@@ -67,8 +67,8 @@ print("F1-score: %0.2f" % f1)
 ```
 These metrics can provide a general idea of how well the decision tree model is performing, but it's important to consider the specific use case and choose the appropriate metrics for evaluating the model's performance. 
 
-Accuracy: 0.98
+**Accuracy: 0.98
 Precision: 0.98
 Recall: 0.98
-F1-score: 0.98
+F1-score: 0.98**
 
