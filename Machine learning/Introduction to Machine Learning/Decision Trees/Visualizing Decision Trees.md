@@ -78,7 +78,7 @@ y_pred = clf.predict(X_test)
 accuracy = clf.score(X_test, y_test)
 print('Accuracy: {:.2f}'.format(accuracy))
 ```
-Accuracy: 0.98
+**Accuracy: 0.98**
 
 In this example, we first load the iris dataset using the load_iris function. Then, we split the data into training and test sets using the train_test_split function. Next, we create an instance of the DecisionTreeClassifier class, specifying the criterion as "entropy" and the max_depth as 3. The criterion argument specifies the impurity measure used to split the data, and the max_depth argument specifies the maximum depth of the tree. The decision tree classifier is then fit to the training data using the fit method. Finally, we make predictions on the test set using the predict method, and evaluate the performance of the model using the score method. The score method returns the accuracy of the model, which is the proportion of correct predictions made on the test set.
 
