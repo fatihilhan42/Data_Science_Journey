@@ -28,7 +28,7 @@ accuracy = accuracy_score(y_test, y_pred)
 print(f"Accuracy: {accuracy}")
 
 ```
-** Accuracy: 0.9777777777777777 **
+**Accuracy: 0.9777777777777777**
 
 
 In this code, we load the iris dataset and split it into training and test sets. We then train the **RandomForestClassifier**with 100 trees and predict the test data. Finally, we evaluate the accuracy of the model using the **accuracy_score** function from scikit-learn's **metrics** module.
