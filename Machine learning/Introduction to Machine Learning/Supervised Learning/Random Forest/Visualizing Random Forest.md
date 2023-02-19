@@ -27,7 +27,7 @@ plt.xlabel("Feature importance")
 plt.ylabel("Feature")
 plt.show()
 ```
-1.RESİM
+![1](https://user-images.githubusercontent.com/63750425/219954846-1cf8a161-5df5-46fb-9c0b-c9446d8afa71.png)
 
 Another way to visualize a random forest is to look at the individual decision trees that make up the ensemble. One approach is to use the **estimators_**attribute of the trained **RandomForestClassifier** object to access the decision trees, and then use a plotting library like **graphviz** or **scikit-learn**'s **plot_tree** function to visualize each tree. Here's an example code snippet:
 
