@@ -1,19 +1,19 @@
 # Case Studies with Random Forest
 In this file, we will explore some case studies of using Random Forests in various applications.
 
-1. **Random Forest for Classification: Titanic Dataset**
+## 1- **Random Forest for Classification: Titanic Dataset**
 The Titanic dataset is a popular machine learning dataset that provides information about the passengers on board the Titanic, including whether they survived or not. In this case study, we will use Random Forest for classification to predict whether a passenger survived or not based on various features such as their age, sex, ticket class, and fare.
 
 We will start by loading the dataset using the pandas library and performing some exploratory data analysis to get a better understanding of the data. Then we will preprocess the data by filling missing values and encoding categorical variables. Next, we will split the data into training and testing sets, and train a Random Forest classifier on the training data. We will tune the hyperparameters of the Random Forest using a randomized search, and evaluate the performance of the classifier on the testing data.
 
-2. **Random Forest for Regression: California Housing Dataset**
+## 2- **Random Forest for Regression: California Housing Dataset**
 The California Housing dataset contains information on the median house value for block groups in California, along with various other features such as the population, median income, and average number of rooms per dwelling.
 
 In this case study, we can use Random Forest regression to predict median house values based on the other available features. The goal is to train a model that can accurately predict median house values for new block groups based on the available data.
 
 We will start by loading the dataset using the scikit-learn library and performing some exploratory data analysis to get a better understanding of the data. Then we will preprocess the data by standardizing the features and splitting the data into training and testing sets. Next, we will train a Random Forest regressor on the training data. We will tune the hyperparameters of the Random Forest using a randomized search, and evaluate the performance of the regressor on the testing data.
 
-3. **Random Forest for Feature Selection: Breast Cancer Dataset**
+## 3- **Random Forest for Feature Selection: Breast Cancer Dataset**
 The Breast Cancer dataset is a popular machine learning dataset that provides information about the characteristics of breast cancer tumors, along with whether they are malignant or benign. In this case study, we will use Random Forest for feature selection to identify the most important features for predicting whether a tumor is malignant or benign.
 
 We will start by loading the dataset using the scikit-learn library and performing some exploratory data analysis to get a better understanding of the data. Then we will preprocess the data by standardizing the features and splitting the data into training and testing sets. Next, we will train a Random Forest classifier on the training data, and use the feature importances to select the most important features. Finally, we will evaluate the performance of the classifier using only the selected features.
@@ -195,7 +195,7 @@ acc = accuracy_score(y_test, y_pred)
 print(f"Test accuracy: {acc:.3f}")
 ```
 
-** Test accuracy: 0.956** 
+**Test accuracy: 0.956** 
 
 In this example, we load the breast cancer dataset, split it into training and test sets, and create a random forest classifier model. We then use the SelectFromModel class to select the most important features from the data based on the feature importances estimated by the random forest. Finally, we train a new random forest classifier using only the selected features and evaluate its performance on the test data.
 
