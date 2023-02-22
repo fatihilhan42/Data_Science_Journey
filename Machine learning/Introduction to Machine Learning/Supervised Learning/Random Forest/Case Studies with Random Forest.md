@@ -97,7 +97,8 @@ print(report)
 ```
 This code will create a heatmap of the confusion matrix and print out a classification report, which will give you a more detailed understanding of the model's performance.
 
-TITANIC GÖRSEL
+
+![titanic görsel](https://user-images.githubusercontent.com/63750425/220707052-39801b50-495e-4c6f-b85c-f0f6e19068d6.png)
 
 
 Datesset Link -----> https://www.kaggle.com/competitions/titanic/data?select=train.csv
@@ -151,8 +152,9 @@ plt.ylabel("Predicted Values")
 plt.title("Random Forest Regression: California Housing Dataset")
 plt.show()
 ```
+![california housing](https://user-images.githubusercontent.com/63750425/220707090-b2b3f8a3-b997-4376-9989-e649e31527e5.png)
 
-CALİFORNİA HOUSİNG GÖRSEL 
+
 
 This code creates a scatter plot of the actual target values versus the predicted target values for the test set, using an alpha of 0.5 to make overlapping points more visible. The x-axis is labeled "Actual Values", the y-axis is labeled "Predicted Values", and the title of the plot is "Random Forest Regression: California Housing Dataset".
 
@@ -223,5 +225,4 @@ plt.show()
 ```
 
 This will create a bar plot showing the feature importances, with the most important features at the top. 
-
-BREAST CANCER RESMİ
+![breast cancer](https://user-images.githubusercontent.com/63750425/220707146-7f7b953e-d331-45fc-82ac-8507b4df89ca.png)
