@@ -1,0 +1,8 @@
+## Introduction to Support Vector Machines (SVMs)
+Support Vector Machines, or SVMs for short, are a popular type of machine learning algorithm that can be used for classification, regression, and even outlier detection. SVMs are based on the idea of finding a hyperplane that best separates the classes in a given dataset.
+
+SVMs are particularly useful when dealing with high-dimensional data, such as images or text documents, where it may not be immediately obvious how to separate the classes. The key idea behind SVMs is to find a hyperplane that maximizes the margin between the two classes. The margin is defined as the distance between the hyperplane and the closest data points from each class. By maximizing the margin, SVMs can create a decision boundary that is robust to noise and outliers in the data.
+
+SVMs have a number of advantages over other machine learning algorithms, including their ability to handle non-linear decision boundaries through the use of kernel functions. SVMs are also well-suited to small and medium-sized datasets, as they tend to be less prone to overfitting than other algorithms such as decision trees and neural networks.
+
+In this folder, we will explore the basic concepts behind SVMs, including how they work, how to train and evaluate an SVM model, and some common use cases for SVMs in machine learning. We will also cover some more advanced topics, such as how to tune SVM hyperparameters for optimal performance, and how to use SVMs for multi-class classification and regression tasks.
