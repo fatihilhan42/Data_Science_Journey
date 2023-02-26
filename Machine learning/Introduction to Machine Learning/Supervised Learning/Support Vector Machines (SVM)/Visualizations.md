@@ -38,10 +38,12 @@ plt.title('SVM classification of Iris dataset')
 
 plt.show()
 ```
-1.resim 
+![1](https://user-images.githubusercontent.com/63750425/221420853-c6187dde-4b55-4c91-b839-3b2221fb06a2.png)
+
 
 ### A visualization of how SVMs work for binary classification tasks.
-2.resim 
+
+![SVM_margin2](https://user-images.githubusercontent.com/63750425/221420859-6918144c-b051-4772-920f-642e4f10f550.png)
 
 In this visualization, the blue and red points represent the two classes that we want to separate. The black line represents the decision boundary of the SVM classifier, and the dashed lines represent the margin. The margin is the distance between the decision boundary and the closest data points from each class.
 
@@ -95,7 +97,8 @@ plt.title('RBF SVM with gamma=1')
 plt.show()
 
 ```
-3.resim
+![3](https://user-images.githubusercontent.com/63750425/221420866-4ec1437d-a6c2-435c-a5ed-4697df0c14db.png)
+
 
 In this example, we generate toy data with two classes that are not linearly separable using the **make_circles** function from scikit-learn. We then define two SVMs: one with a linear kernel and one with an RBF (radial basis function) kernel. The linear SVM tries to find a linear decision boundary that separates the two classes, while the RBF SVM uses a non-linear kernel to transform the data into a higher-dimensional space where a linear boundary can be found.
 
@@ -144,6 +147,7 @@ plt.title('SVM decision boundaries on the iris dataset')
 # Show the plot
 plt.show()
 ```
-4.resim 
+![4](https://user-images.githubusercontent.com/63750425/221420884-4bb84e55-3bef-48ea-b90c-a8e44845b846.png)
+
 
 This code will create a plot that shows the decision boundaries created by the SVM classifier for the iris dataset. The x-axis represents sepal length and the y-axis represents sepal width, and each point in the plot represents an iris flower. The color of each point indicates its class (setosa, versicolor, or virginica). The shaded regions represent the regions of the feature space that are classified as belonging to each class by the SVM.
