@@ -34,25 +34,42 @@ print(classification_report(newsgroups_test.target, predicted, target_names=news
 
              alt.atheism       0.79      0.77      0.78       319
            comp.graphics       0.67      0.74      0.70       389
- comp.os.ms-windows.misc       0.20      0.00      0.01       394
-comp.sys.ibm.pc.hardware       0.56      0.77      0.65       392
-   comp.sys.mac.hardware       0.84      0.75      0.79       385
+           
+    comp.os.ms-windows.misc       0.20      0.00      0.01       394
+ 
+    comp.sys.ibm.pc.hardware       0.56      0.77      0.65       392
+
+    comp.sys.mac.hardware       0.84      0.75      0.79       385
+   
           comp.windows.x       0.65      0.84      0.73       395
+          
             misc.forsale       0.93      0.65      0.77       390
+            
                rec.autos       0.87      0.91      0.89       396
+               
          rec.motorcycles       0.96      0.92      0.94       398
+         
       rec.sport.baseball       0.96      0.87      0.91       397
+      
         rec.sport.hockey       0.93      0.96      0.95       399
+        
                sci.crypt       0.67      0.95      0.78       396
+               
          sci.electronics       0.79      0.66      0.72       393
+         
                  sci.med       0.87      0.82      0.85       396
+                 
                sci.space       0.83      0.89      0.86       394
-  soc.religion.christian       0.70      0.96      0.81       398
+               
+    soc.religion.christian      0.70      0.96      0.81       398
+  
       talk.politics.guns       0.69      0.91      0.79       364
-   talk.politics.mideast       0.85      0.94      0.89       376
+      
+    talk.politics.mideast      0.85      0.94      0.89       376
+   
       talk.politics.misc       0.58      0.63      0.60       310
       talk.religion.misc       0.89      0.33      0.49       251
-
+      
                 accuracy                           0.77      7532
                macro avg       0.76      0.76      0.75      7532
             weighted avg       0.76      0.77      0.75      7532**
