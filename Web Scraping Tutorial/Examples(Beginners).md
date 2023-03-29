@@ -18,7 +18,7 @@ print(paragraph.text)
 ```
 
 
-##Example 2: Extracting data from a table
+## Example 2: Extracting data from a table
 
 In this example, we will use Beautiful Soup to extract data from a table on a webpage. We will send a GET request to the webpage, parse the HTML content of the page, and then use Beautiful Soup's find_all method to locate the table and the table rows. We will then iterate over the rows and extract the data from each cell.
 
