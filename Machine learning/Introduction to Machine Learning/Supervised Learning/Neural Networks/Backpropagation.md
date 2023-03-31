@@ -8,15 +8,15 @@ The backpropagation algorithm works by propagating the error from the output lay
 
 Here are the steps of the backpropagation algorithm:
 
-1. Forward pass: The input is propagated through the network layer by layer until the output is obtained.
+1. **Forward pass:** The input is propagated through the network layer by layer until the output is obtained.
 
-2. Error calculation: The difference between the predicted output and the actual output is calculated using a loss function.
+2. **Error calculation:** The difference between the predicted output and the actual output is calculated using a loss function.
 
-3. Backward pass: The error is propagated backward through the network, starting from the output layer and moving back to the input layer. The gradient of the error with respect to each weight in the network is calculated.
+3. **Backward pass:** The error is propagated backward through the network, starting from the output layer and moving back to the input layer. The gradient of the error with respect to each weight in the network is calculated.
 
-4. Weight update: The weights in the network are updated in the direction of the negative gradient. The learning rate, which determines the size of the update, is a hyperparameter that needs to be chosen carefully.
+4. **Weight update:** The weights in the network are updated in the direction of the negative gradient. The learning rate, which determines the size of the update, is a hyperparameter that needs to be chosen carefully.
 
-5. Repeat: The process is repeated many times until the error is minimized.
+5. **Repeat:** The process is repeated many times until the error is minimized.
 
 ### Advantages and Disadvantages
 Backpropagation has several advantages and disadvantages:
