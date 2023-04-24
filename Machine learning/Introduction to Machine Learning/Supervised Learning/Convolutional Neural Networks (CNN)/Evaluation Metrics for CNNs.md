@@ -36,10 +36,11 @@ The F1 score ranges from 0 to 1, with higher values indicating better performanc
 ### Confusion Matrix
 A confusion matrix is a table that summarizes the number of correct and incorrect predictions made by a classification model on a set of test data. It is often used to gain insight into the types of errors that a model is making, and to identify classes that are particularly challenging for the model. The confusion matrix is typically organized as follows:
 
-|               | Predicted Positive  | Predicted Negative |
-    True Positive          | ------------- | ------------- |
-    True Negative           | TP  | FN  |
-                | FP  | TN  |
+| | Predicted Positive  | Predicted Negative |
+| ------------- | ------------- | ------------ | 
+| True Positive | TP  | FN  |
+| True Negative | FP  | TN  |
+                
 
                                     
 Here, TP, FP, TN, and FN represent the number of true positives, false positives, true negatives, and false negatives, respectively.
