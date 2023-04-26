@@ -61,7 +61,8 @@ Here's an example of a simple 2D convolution operation:
 
 2D Convolution
 
-(Image source: https://towardsdatascience.com/intuitively-understanding-convolutions-for-deep-learning-1f6f42faee1)
+![1_Fw-ehcNBR9byHtho-Rxbtw](https://user-images.githubusercontent.com/63750425/233941266-015a5b07-5763-4b93-9a91-b38c06643fcd.gif)
+
 
 In this example, the input image is 6x6 and the filter is 3x3. The filter is first placed at the top left corner of the input image and the dot product is computed between the filter and the receptive field. This value is then stored in the output feature map. The filter is then shifted to the right by one pixel and the process is repeated. Once the end of the row is reached, the filter is shifted down by one pixel and the process is repeated until the entire image has been processed.
 
