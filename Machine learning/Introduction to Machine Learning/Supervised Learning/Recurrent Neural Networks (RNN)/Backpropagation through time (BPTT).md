@@ -1,6 +1,8 @@
 ## Backpropagation through time (BPTT)
 In Recurrent Neural Networks (RNNs), the output of the previous time step is fed back as input to the current time step, forming a loop that allows the network to use previous information to inform current predictions. However, training these networks can be challenging because of the temporal dependencies that exist between the inputs and outputs. One way to train RNNs is through a technique called Backpropagation through time (BPTT).
 
+![OIP hieTqEOHLuJqGz6oj1eiVAHaEV](https://user-images.githubusercontent.com/63750425/235995572-e3244322-5acc-4673-8028-2e898b55e154.jpeg)
+
 BPTT is a variation of the backpropagation algorithm used in feedforward neural networks, which computes the gradients of the loss function with respect to the parameters of the network. The key difference is that in BPTT, the gradients are computed through the entire sequence of inputs, rather than just a single input. This is necessary because the output of each time step depends not only on the current input but also on all the previous inputs.
 
 ### How BPTT works
