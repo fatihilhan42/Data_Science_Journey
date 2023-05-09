@@ -1,4 +1,6 @@
 ## Decision Trees as Weak Learners
+![image](https://user-images.githubusercontent.com/63750425/237027294-d16b3459-c970-4f48-acfd-1f497d3a16b8.png)
+
 Decision trees are commonly used as weak learners in gradient boosting algorithms. In this context, a weak learner is a model that is only slightly better than random guessing. The idea is that by combining multiple weak learners, we can create a strong ensemble model that is more accurate than any of the individual weak learners.
 
 ### How Decision Trees Work
