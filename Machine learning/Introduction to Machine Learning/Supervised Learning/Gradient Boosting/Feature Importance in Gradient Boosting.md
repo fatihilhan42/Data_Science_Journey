@@ -70,38 +70,12 @@ In this example, we first generate some synthetic data using Scikit-learn's **ma
 In many machine learning applications, feature importance is a crucial aspect of model interpretation. Feature importance helps us understand which features have the most influence on the model's predictions, and which features can be safely ignored. In gradient boosting, feature importance can be computed using various techniques.
 
 Gini Importance
+
 The Gini importance is a simple and commonly used method to measure feature importance in decision tree-based models. In gradient boosting, we can calculate the Gini importance of each feature by summing the total reduction in impurity over all the trees in the ensemble that use that feature. The impurity reduction for each feature is defined as:
 
-�
-(
-�
-)
-=
-∑
-�
-=
-1
-�
-�
-�
-(
-1
-−
-�
-�
-)
-I(f)= 
-t=1
-∑
-T
-​
- p 
-t
-​
- (1−p 
-t
-​
- )
+
+![gini](https://user-images.githubusercontent.com/63750425/237026706-ccf25d81-fe33-4e07-80ee-719fe4e12faa.png)
+
 where $p_t$ is the proportion of samples at node $t$, and $T$ is the total number of nodes in the tree.
 
 The feature importance score for feature $f$ is then computed by normalizing the impurity reduction by the sum of all impurity reductions:
@@ -109,11 +83,12 @@ The feature importance score for feature $f$ is then computed by normalizing the
 Gini Importance
 The Gini importance is a simple and commonly used method to measure feature importance in decision tree-based models. In gradient boosting, we can calculate the Gini importance of each feature by summing the total reduction in impurity over all the trees in the ensemble that use that feature. The impurity reduction for each feature is defined as:
 
+![gini importance](https://user-images.githubusercontent.com/63750425/237026719-795499e8-1a9d-4b19-acb9-252636d0ab39.png)
 
 where $p_t$ is the proportion of samples at node $t$, and $T$ is the total number of nodes in the tree.
 
 The feature importance score for feature $f$ is then computed by normalizing the impurity reduction by the sum of all impurity reductions:
-​
+
 
 Permutation Importance
 Another method for computing feature importance is permutation importance. In permutation importance, we randomly permute the values of a feature in the test set and measure the resulting decrease in the model's performance (e.g., accuracy, AUC, etc.). If permuting a feature causes a significant decrease in performance, then that feature is deemed important. Permutation importance has several advantages over other methods, such as its ability to handle correlated features and its robustness to non-linear feature interactions.
