@@ -1,6 +1,9 @@
 ## Hyperparameter Tuning in Gradient Boosting
 Hyperparameter tuning is an important step in building a robust and accurate gradient boosting model. In this process, the hyperparameters of the model are adjusted to optimize the performance of the model. Hyperparameters are model parameters that cannot be learned from the training data but are set by the user before training the model. In gradient boosting, there are several hyperparameters that can be tuned to improve the performance of the model. In this article, we will discuss some of the important hyperparameters in gradient boosting and how they can be tuned.
 
+![image](https://user-images.githubusercontent.com/63750425/237024835-f854ab17-04fa-4647-b7b6-1d287441b0c4.png)
+
+
 ### Hyperparameters in Gradient Boosting
 The hyperparameters in gradient boosting can be divided into three categories:
 
@@ -12,12 +15,18 @@ Tree-based hyperparameters control the structure of individual decision trees in
 - **min_samples_leaf:** The minimum number of samples required to be at a leaf node. This hyperparameter controls the minimum amount of information required for a leaf node to be valid. Increasing this value can help prevent overfitting.
 - **max_leaf_nodes:** The maximum number of leaf nodes allowed in the tree. This hyperparameter controls the maximum size of the tree, preventing overfitting.
 
+![image](https://user-images.githubusercontent.com/63750425/237025171-d0d54d9f-54cf-4dde-9c99-6371e816ff2f.png)
+
+
 ### 2. Boosting Hyperparameters
 Boosting hyperparameters control the way the model weights are updated during the boosting process.
 
 - **learning_rate:** The learning rate controls the contribution of each tree to the final prediction. A lower learning rate requires more trees to be added to the model but can result in better performance.
 - **n_estimators:** The number of trees in the ensemble. Increasing the number of trees can improve the performance of the model, but can also make the model slower and more prone to overfitting.
 - **subsample:** The fraction of samples used for each tree. A lower subsample rate can help prevent overfitting by introducing more randomness into the model.
+
+![image](https://user-images.githubusercontent.com/63750425/237025595-d0d2db2c-2bc0-43b2-96a9-ee5f4d2e45b3.png)
+
 
 ### 3. Regularization Hyperparameters
 Regularization hyperparameters control the way the model is regularized to prevent overfitting.
@@ -36,6 +45,9 @@ Random search is a more efficient method for hyperparameter tuning. In this meth
 
 ### Bayesian Optimization
 Bayesian optimization is a more advanced method for hyperparameter tuning. In this method, a probabilistic model is used to model the relationship between hyperparameters and the objective function. The model is then used to predict the next set of hyperparameters to evaluate, based on the results of previous evaluations. This method is particularly useful for expensive or time-consuming evaluations, as it can reduce the number of evaluations needed to find optimal hyperparameters.
+
+![image](https://user-images.githubusercontent.com/63750425/237025922-016b2ef0-2b84-47a2-bac6-c853445321e5.png)
+
 
 The basic steps of Bayesian optimization are:
 
