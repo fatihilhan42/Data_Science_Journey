@@ -1,4 +1,6 @@
 ## XGBoost: A Popular Implementation of Gradient Boosting
+![image](https://github.com/fatihilhan42/Data_Science_Journey/assets/63750425/a168313f-653d-438e-a836-487fce918c0e)
+
 XGBoost (short for eXtreme Gradient Boosting) is a popular implementation of gradient boosting that has gained widespread popularity due to its exceptional performance on a variety of machine learning problems. XGBoost is an optimized distributed gradient boosting library designed to be highly efficient, flexible, and scalable. In this article, we will take a closer look at XGBoost and how it works.
 
 ### Overview of XGBoost
@@ -9,6 +11,8 @@ At its core, XGBoost is an ensemble machine learning algorithm that uses decisio
 Another unique feature of XGBoost is that it supports multiple loss functions and evaluation metrics, making it highly customizable for a wide range of machine learning problems.
 
 ### How XGBoost Works
+![image](https://github.com/fatihilhan42/Data_Science_Journey/assets/63750425/434f0c0c-9c5f-436f-8c8f-da246a188131)
+
 XGBoost works by iteratively adding decision trees to an ensemble, with each subsequent tree attempting to correct the errors of the previous tree. During each iteration, XGBoost computes the gradients and Hessians of the loss function with respect to the model predictions, and uses these gradients and Hessians to update the model parameters (i.e., the weights assigned to each feature in the decision tree).
 
 To prevent overfitting, XGBoost employs several regularization techniques such as L1 and L2 regularization, shrinkage, and early stopping. Additionally, XGBoost uses a technique called column subsampling to improve the generalization of the model. Column subsampling involves randomly selecting a subset of features to use in each tree, which helps to reduce overfitting and improve the robustness of the model.
