@@ -1,4 +1,6 @@
 # The Naive Bayes Classifier
+![image](https://github.com/fatihilhan42/Data_Science_Journey/assets/63750425/5982fba7-4a15-4e1c-9e69-fb751c13d3df)
+
 The Naive Bayes classifier is a simple and effective classification algorithm that is based on Bayes' theorem. It is widely used in text classification, spam filtering, and sentiment analysis, among other applications.
 
 ## How it Works
