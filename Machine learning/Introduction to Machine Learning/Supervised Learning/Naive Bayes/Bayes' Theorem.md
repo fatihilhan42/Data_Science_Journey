@@ -1,4 +1,6 @@
 ## Bayes' Theorem
+![image](https://github.com/fatihilhan42/Data_Science_Journey/assets/63750425/a710ff11-0df9-4be6-aa63-a9228cbbd13d)
+
 Bayes' Theorem is a fundamental theorem in probability theory that describes the probability of an event based on prior knowledge of conditions that might be related to the event. It is named after the Reverend Thomas Bayes, who first formulated the theorem in the 18th century.
 
 The theorem is often used in machine learning algorithms, including Naive Bayes, to calculate the probability of a certain class given a set of features.
