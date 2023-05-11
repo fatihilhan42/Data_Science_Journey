@@ -1,4 +1,6 @@
 ## LightGBM: Another High-Performance Implementation of Gradient Boosting
+![image](https://github.com/fatihilhan42/Data_Science_Journey/assets/63750425/61bc9da0-8dab-4bee-8936-8b462b717348)
+
 LightGBM is an open-source implementation of gradient boosting that was developed by Microsoft. It is designed to be highly efficient and scalable, making it well-suited for large datasets.
 
 ### Features
@@ -44,6 +46,8 @@ y_pred = model.predict(X_test)
 # Print the accuracy score
 print('Accuracy:', np.mean(np.argmax(y_pred, axis=1) == y_test))
 ```
+Output ---> **Accuracy: 1.0**
+
 In this example, we first load the Iris dataset and split it into training and testing sets. We then create a LightGBM dataset using the lgb.Dataset function. Next, we set the hyperparameters for the model and train it using the lgb.train function. Finally, we make predictions on the testing set and print the accuracy score.
 
 Conclusion
