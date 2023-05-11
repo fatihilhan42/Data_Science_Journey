@@ -1,5 +1,8 @@
 ## The Gradient Boosting Algorithm
 
+![image](https://user-images.githubusercontent.com/63750425/237027581-3f5f1f04-e940-4241-ba8a-0453bef5b9e0.png)
+
+
 Gradient boosting is a powerful and popular machine learning technique that can be used for both regression and classification tasks. It works by combining a set of weak learners, typically decision trees, to create a stronger model. The basic idea behind gradient boosting is to iteratively add new models to the ensemble, with each new model correcting the errors made by the previous models.
 
 In this article, we'll take a closer look at the gradient boosting algorithm, how it works, and some of its key parameters and hyperparameters.
