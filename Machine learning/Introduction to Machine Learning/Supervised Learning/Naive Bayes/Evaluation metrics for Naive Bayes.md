@@ -1,4 +1,6 @@
 # Evaluation metrics for Naive Bayes
+![image](https://github.com/fatihilhan42/Data_Science_Journey/assets/63750425/ad160a37-aa8a-4c30-ad98-1d2bf42204fa)
+
 Naive Bayes is a probabilistic classification algorithm that can be used for a variety of tasks, including binary and multiclass classification, text classification, and spam filtering. When using Naive Bayes, it's important to evaluate the performance of the model using appropriate metrics to ensure that it's making accurate predictions.
 
 Here are some common evaluation metrics used for Naive Bayes:
