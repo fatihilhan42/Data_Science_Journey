@@ -1,4 +1,6 @@
 ## Introduction to Ensemble Methods
+![image](https://github.com/fatihilhan42/Data_Science_Journey/assets/63750425/efaf9519-ed54-476e-839e-c3e532a57da7)
+
 Ensemble methods are a class of machine learning techniques that involve combining multiple models to improve the overall performance of a predictive model. In other words, the idea behind ensemble methods is to aggregate the predictions of several models, in order to reduce bias, variance, or both.
 
 There are two main types of ensemble methods: bagging and boosting. Bagging methods involve training multiple independent models in parallel on random subsets of the training data, and aggregating their predictions to form a final output. Boosting methods, on the other hand, train a sequence of models where each subsequent model tries to correct the mistakes of the previous ones.
