@@ -1,4 +1,6 @@
 ## Evaluation Metrics for Convolutional Neural Networks (CNNs)
+![image](https://github.com/fatihilhan42/Data_Science_Journey/assets/63750425/43911fb7-d361-414b-aec6-d176a463af2e)
+
 When training a CNN, it is important to have a way to evaluate the performance of the model. This is typically done by computing one or more evaluation metrics on a set of test data that is separate from the training data. There are several commonly used evaluation metrics for CNNs, each of which provides a different perspective on the performance of the model.
 
 ### Accuracy
