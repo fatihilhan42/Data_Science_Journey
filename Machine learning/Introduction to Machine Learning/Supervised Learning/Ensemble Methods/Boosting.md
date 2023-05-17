@@ -1,4 +1,6 @@
 ## Boosting
+![image](https://github.com/fatihilhan42/Data_Science_Journey/assets/63750425/cf609d00-37e2-49c5-b47c-32382c6b247a)
+
 Boosting is another type of ensemble method that combines weak learners to create a strong learner. The idea behind boosting is to sequentially train multiple weak learners, where each subsequent learner is trained on the misclassified examples from the previous learner. Boosting has been shown to be a powerful method for a variety of machine learning tasks, including classification, regression, and ranking.
 
 ### Types of Boosting
