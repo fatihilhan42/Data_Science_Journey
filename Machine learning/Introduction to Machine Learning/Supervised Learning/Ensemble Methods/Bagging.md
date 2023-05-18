@@ -1,4 +1,6 @@
 ## Bagging
+![image](https://github.com/fatihilhan42/Data_Science_Journey/assets/63750425/4bf2c17e-f729-41fe-a47e-178a23365bad)
+
 Bagging (Bootstrap Aggregating) is an ensemble learning method that aims to improve the stability and accuracy of machine learning models. The idea behind bagging is to train multiple models on different subsets of the training data and then combine their predictions to obtain a more robust and accurate prediction.
 
 ### How Bagging works

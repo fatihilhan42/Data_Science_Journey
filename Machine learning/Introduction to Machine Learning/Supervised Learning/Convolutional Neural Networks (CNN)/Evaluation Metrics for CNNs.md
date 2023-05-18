@@ -1,4 +1,6 @@
 ## Evaluation Metrics for Convolutional Neural Networks (CNNs)
+![image](https://github.com/fatihilhan42/Data_Science_Journey/assets/63750425/43911fb7-d361-414b-aec6-d176a463af2e)
+
 When training a CNN, it is important to have a way to evaluate the performance of the model. This is typically done by computing one or more evaluation metrics on a set of test data that is separate from the training data. There are several commonly used evaluation metrics for CNNs, each of which provides a different perspective on the performance of the model.
 
 ### Accuracy
@@ -46,6 +48,8 @@ A confusion matrix is a table that summarizes the number of correct and incorrec
 Here, TP, FP, TN, and FN represent the number of true positives, false positives, true negatives, and false negatives, respectively.
 
 ### Receiver Operating Characteristic (ROC) curve
+![image](https://github.com/fatihilhan42/Data_Science_Journey/assets/63750425/f2e32967-9ff2-4a35-a4a5-d73dab1fb45c)
+
 The ROC curve is a plot of the true positive rate (TPR) against the false positive rate (FPR) for different classification thresholds. It is a useful tool for visualizing the performance of a binary classifier at different thresholds. The area under the ROC curve (AUC-ROC) is a common metric for evaluating the overall performance of a binary classifier, with values closer to 1 indicating better performance.
 
 ### Precision-Recall (PR) curve

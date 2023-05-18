@@ -1,4 +1,6 @@
 ## Generative Models with CNNs
+![image](https://github.com/fatihilhan42/Data_Science_Journey/assets/63750425/96f0c3d6-d75d-47a5-9a0a-1b3da41a11b7)
+
 
 Convolutional Neural Networks (CNNs) are not just powerful tools for image classification and object detection, they can also be used to generate new images. This is made possible by **generative models**, which are machine learning models that learn to create new data that is similar to the data it was trained on.
 

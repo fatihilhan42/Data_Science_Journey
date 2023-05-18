@@ -1,4 +1,6 @@
 ## Random Forests
+![image](https://github.com/fatihilhan42/Data_Science_Journey/assets/63750425/d117a264-26c8-432d-9c3c-e57a437dbb90)
+
 Random Forests is an ensemble learning method that is commonly used for classification and regression problems. It is based on the concept of decision trees, but instead of using a single decision tree, a forest of decision trees is used.
 
 ### The Algorithm

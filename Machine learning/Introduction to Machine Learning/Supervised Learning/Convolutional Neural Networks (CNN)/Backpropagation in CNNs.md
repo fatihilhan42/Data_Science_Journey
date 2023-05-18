@@ -1,9 +1,13 @@
 ## Backpropagation in CNNs
+![image](https://github.com/fatihilhan42/Data_Science_Journey/assets/63750425/1d735011-aeff-4c6a-85be-4b48838efd35)
+
 Backpropagation is an algorithm used to train neural networks by minimizing the error between predicted and actual outputs. It works by computing the gradient of the loss function with respect to each parameter in the network, and then updating the parameters in the opposite direction of the gradient.
 
 In CNNs, backpropagation is used to adjust the weights and biases of the convolutional, pooling, and fully connected layers. The process of backpropagation in CNNs is similar to that in other neural networks, but with some specific differences.
 
 ### Backpropagation in Convolutional Layers
+![image](https://github.com/fatihilhan42/Data_Science_Journey/assets/63750425/f45b051a-ba2b-4432-9a69-7cbc14e5577b)
+
 In convolutional layers, the backpropagation algorithm computes the gradients of the weights and biases for each filter. The gradients are then used to update the filter weights and biases in the opposite direction of the gradient.
 
 The backpropagation algorithm for convolutional layers is similar to that for fully connected layers, but with a few key differences. For example, in a convolutional layer, the input is a 3D tensor, and the filters are 3D tensors as well. The output of the layer is also a 3D tensor. This means that the derivatives with respect to the inputs, weights, and biases are 3D tensors as well.
