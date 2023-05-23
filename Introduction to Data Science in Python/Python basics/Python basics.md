@@ -1,4 +1,6 @@
 # Python Basics
+![image](https://github.com/fatihilhan42/Data_Science_Journey/assets/63750425/cf6e5e32-47c5-4d1f-b066-1bd1c1576430)
+
 
 Welcome to the "Python Basics" study of the "Introduction to Data Science in Python" folder of the Data Science Journey repository! In this study, you will learn the fundamentals of the Python programming language. Specifically, you will learn about:
 
