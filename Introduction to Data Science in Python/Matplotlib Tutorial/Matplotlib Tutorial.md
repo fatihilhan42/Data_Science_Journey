@@ -1,4 +1,6 @@
 # Matplotlib Tutorial
+![image](https://github.com/fatihilhan42/Data_Science_Journey/assets/63750425/b9eff029-be29-43ed-adab-d237b13c0968)
+
 
 Welcome to the "Matplotlib Tutorial" of the "Introduction to Data Science in Python" folder of the Data Science Journey repository! In this tutorial, you will learn how to use the Matplotlib library for data visualization in Python.
 
