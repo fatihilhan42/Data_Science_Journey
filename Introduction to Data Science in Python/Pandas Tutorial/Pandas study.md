@@ -1,4 +1,6 @@
 # Pandas
+![image](https://github.com/fatihilhan42/Data_Science_Journey/assets/63750425/fb4d1377-3309-43d1-bae4-147c8db6e203)
+
 
 Welcome to the "Pandas" study of the "Pandas Tutorial" folder of the Data Science Journey repository! In this study, you will learn how to use the Pandas library for data manipulation and analysis in Python.
 
