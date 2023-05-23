@@ -1,4 +1,6 @@
 ## Ensemble Methods in Unsupervised Learning
+![image](https://github.com/fatihilhan42/Data_Science_Journey/assets/63750425/e2f55aae-8718-474c-bdc7-f308f622b879)
+
 
 Ensemble methods can also be applied to unsupervised learning tasks, where the goal is to discover patterns or relationships in data without the use of labeled examples.
 
