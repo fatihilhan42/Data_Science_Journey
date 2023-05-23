@@ -89,8 +89,7 @@ print("Stacking Classifier accuracy: {:.2f}%".format(sclf_acc * 100))
 
 
 ```
-**
-Logistic Regression accuracy: 97.08%
+**Logistic Regression accuracy: 97.08%
 Naive Bayes accuracy: 94.15%
 Random Forest accuracy: 97.08%
 Stacking Classifier accuracy: 97.08%**
