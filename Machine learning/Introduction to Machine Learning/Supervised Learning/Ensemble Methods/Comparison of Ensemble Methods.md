@@ -1,4 +1,6 @@
 ## Comparison of Ensemble Methods
+![image](https://github.com/fatihilhan42/Data_Science_Journey/assets/63750425/2e387bc1-6133-483e-b034-66ce394e2067)
+
 Ensemble methods have become popular in recent years, and several techniques have been developed to improve the accuracy and stability of machine learning models. In this article, we will compare some of the most commonly used ensemble methods in terms of their advantages, disadvantages, and use cases.
 
 ### Bagging vs. Boosting
