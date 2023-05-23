@@ -1,4 +1,6 @@
 ## Types of Ensemble Methods
+![image](https://github.com/fatihilhan42/Data_Science_Journey/assets/63750425/41c2321d-0be1-4c93-abc4-b4ffaa4d2203)
+
 Ensemble methods are machine learning techniques that combine multiple models to improve the performance of a single model. There are several types of ensemble methods, and in this article, we will discuss some of the most common ones.
 
 ### Bagging
