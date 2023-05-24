@@ -1,4 +1,6 @@
 ## Stacking
+![image](https://github.com/fatihilhan42/Data_Science_Journey/assets/63750425/277e49dc-966b-4efb-9e1e-cc5856249f8d)
+
 Stacking is an ensemble learning technique that involves training a model to combine the predictions of several base models. It is a meta-algorithm that builds a new model by learning how to combine the predictions of other models. In other words, it combines multiple models with different strengths and weaknesses to produce a better overall prediction.
 
 Stacking is also known as stacked generalization or meta-ensembling. It was first introduced by Wolpert in 1992.
@@ -87,8 +89,7 @@ print("Stacking Classifier accuracy: {:.2f}%".format(sclf_acc * 100))
 
 
 ```
-**
-Logistic Regression accuracy: 97.08%
+**Logistic Regression accuracy: 97.08%
 Naive Bayes accuracy: 94.15%
 Random Forest accuracy: 97.08%
 Stacking Classifier accuracy: 97.08%**

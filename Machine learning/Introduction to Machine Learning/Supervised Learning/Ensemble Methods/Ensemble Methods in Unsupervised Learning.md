@@ -1,4 +1,6 @@
 ## Ensemble Methods in Unsupervised Learning
+![image](https://github.com/fatihilhan42/Data_Science_Journey/assets/63750425/e2f55aae-8718-474c-bdc7-f308f622b879)
+
 
 Ensemble methods can also be applied to unsupervised learning tasks, where the goal is to discover patterns or relationships in data without the use of labeled examples.
 
@@ -10,10 +12,10 @@ Ensemble methods have also been applied to dimensionality reduction tasks, where
 
 ### Examples of Ensemble Methods in Unsupervised Learning:
 
-1. Ensemble Clustering: Ensemble clustering methods such as consensus clustering combine the results of multiple clustering algorithms to produce a more accurate and robust clustering solution. Consensus clustering involves creating multiple clustering solutions using different algorithms, and then combining them into a single solution using a consensus function.
+1. **Ensemble Clustering:** Ensemble clustering methods such as consensus clustering combine the results of multiple clustering algorithms to produce a more accurate and robust clustering solution. Consensus clustering involves creating multiple clustering solutions using different algorithms, and then combining them into a single solution using a consensus function.
 
-2. Anomaly Detection: Ensemble methods can be used for anomaly detection by combining the results of multiple anomaly detection algorithms. The ensemble can be trained on a set of normal instances, and instances that deviate from the norm can be identified as anomalies.
+2. **Anomaly Detection:** Ensemble methods can be used for anomaly detection by combining the results of multiple anomaly detection algorithms. The ensemble can be trained on a set of normal instances, and instances that deviate from the norm can be identified as anomalies.
 
-3. Ensemble Dimensionality Reduction: Ensemble dimensionality reduction methods combine the results of multiple dimensionality reduction algorithms to produce a more accurate and robust representation of the data. Examples of ensemble dimensionality reduction methods include ensemble PCA and ensemble manifold learning.
+3. **Ensemble Dimensionality Reduction:** Ensemble dimensionality reduction methods combine the results of multiple dimensionality reduction algorithms to produce a more accurate and robust representation of the data. Examples of ensemble dimensionality reduction methods include ensemble PCA and ensemble manifold learning.
 
 In conclusion, ensemble methods can be applied to a wide range of unsupervised learning tasks, including clustering, anomaly detection, and dimensionality reduction. By combining the results of multiple algorithms, ensemble methods can produce more accurate and robust solutions than single algorithms alone.
