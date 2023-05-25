@@ -1,4 +1,6 @@
 # Heatmaps
+![image](https://github.com/fatihilhan42/Data_Science_Journey/assets/63750425/8580b21e-b33b-4dd0-b270-e2a51f582755)
+
 This folder contains information and examples on creating heatmaps in Python. A heatmap is a graphical representation of data where individual values are represented as colors. It is a powerful visualization tool for identifying patterns and trends in large and complex datasets.
 
 In this folder, you will find:
