@@ -1,5 +1,7 @@
 
 1- **Classification and Regression Tree (CART):** This algorithm is the most commonly used algorithm for building decision trees, which are the building blocks of random forests. CART is used to split a dataset into smaller subsets by selecting the best feature that gives the most homogeneous subsets.
+![image](https://github.com/fatihilhan42/Data_Science_Journey/assets/63750425/f3073676-81d3-40be-8004-098434d6ad90)
+
 
 2- **ID3 (Iterative Dichotomiser 3):** This algorithm is used to build decision trees by selecting the best attribute to split the dataset at each node based on information gain. It is used for categorical data.
 
