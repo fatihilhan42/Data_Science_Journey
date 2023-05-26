@@ -1,4 +1,6 @@
 # Box Plots
+![image](https://github.com/fatihilhan42/Data_Science_Journey/assets/63750425/ee4e5445-cc1d-489d-9e94-7a10f389ff7e)
+
 This folder contains information and examples on creating box plots in Python. A box plot, also known as a box-and-whisker plot, is a type of plot that is used to visualize the distribution of a dataset. It is particularly useful for comparing multiple datasets or for identifying outliers in a dataset.
 
 In this folder, you will find:

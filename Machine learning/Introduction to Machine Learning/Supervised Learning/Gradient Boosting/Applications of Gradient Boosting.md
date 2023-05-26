@@ -1,4 +1,6 @@
 ## Applications of Gradient Boosting
+![image](https://github.com/fatihilhan42/Data_Science_Journey/assets/63750425/1a1637b1-0c91-44ad-9071-30c5c29175c2)
+
 Gradient boosting has become a popular machine learning technique due to its high accuracy and ability to handle complex data. Here are some common applications of gradient boosting:
 
 ### Classification and Regression

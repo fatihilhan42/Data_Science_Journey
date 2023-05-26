@@ -2,6 +2,8 @@
 In this file, we will explore some case studies of using Random Forests in various applications.
 
 ## 1- **Random Forest for Classification: Titanic Dataset**
+![image](https://github.com/fatihilhan42/Data_Science_Journey/assets/63750425/fa748338-860f-4780-84d9-ec250d689f78)
+
 The Titanic dataset is a popular machine learning dataset that provides information about the passengers on board the Titanic, including whether they survived or not. In this case study, we will use Random Forest for classification to predict whether a passenger survived or not based on various features such as their age, sex, ticket class, and fare.
 
 We will start by loading the dataset using the pandas library and performing some exploratory data analysis to get a better understanding of the data. Then we will preprocess the data by filling missing values and encoding categorical variables. Next, we will split the data into training and testing sets, and train a Random Forest classifier on the training data. We will tune the hyperparameters of the Random Forest using a randomized search, and evaluate the performance of the classifier on the testing data.
@@ -14,6 +16,8 @@ In this case study, we can use Random Forest regression to predict median house 
 We will start by loading the dataset using the scikit-learn library and performing some exploratory data analysis to get a better understanding of the data. Then we will preprocess the data by standardizing the features and splitting the data into training and testing sets. Next, we will train a Random Forest regressor on the training data. We will tune the hyperparameters of the Random Forest using a randomized search, and evaluate the performance of the regressor on the testing data.
 
 ## 3- **Random Forest for Feature Selection: Breast Cancer Dataset**
+![image](https://github.com/fatihilhan42/Data_Science_Journey/assets/63750425/e2e92028-c537-4da3-8559-e39955440064)
+
 The Breast Cancer dataset is a popular machine learning dataset that provides information about the characteristics of breast cancer tumors, along with whether they are malignant or benign. In this case study, we will use Random Forest for feature selection to identify the most important features for predicting whether a tumor is malignant or benign.
 
 We will start by loading the dataset using the scikit-learn library and performing some exploratory data analysis to get a better understanding of the data. Then we will preprocess the data by standardizing the features and splitting the data into training and testing sets. Next, we will train a Random Forest classifier on the training data, and use the feature importances to select the most important features. Finally, we will evaluate the performance of the classifier using only the selected features.

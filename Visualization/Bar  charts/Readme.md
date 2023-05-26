@@ -1,4 +1,6 @@
 ## Bar Charts
+![image](https://github.com/fatihilhan42/Data_Science_Journey/assets/63750425/99f3c870-960a-447a-b01c-8b64bb0c21d4)
+
 This folder contains information and examples on creating bar charts in Python. A bar chart is a simple and effective way to visualize categorical data, such as the number of occurrences of different categories.
 
 In this folder, you will find:
