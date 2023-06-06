@@ -1,4 +1,4 @@
-Introduction to Evaluation Metrics
+## Introduction to Evaluation Metrics
 Overview
 Evaluation metrics play a crucial role in assessing the performance and effectiveness of machine learning models. They provide a quantitative measure to evaluate how well a model is performing on a given task, such as classification, regression, or clustering. By using appropriate evaluation metrics, we can gain insights into the model's strengths, weaknesses, and overall predictive capability.
 
