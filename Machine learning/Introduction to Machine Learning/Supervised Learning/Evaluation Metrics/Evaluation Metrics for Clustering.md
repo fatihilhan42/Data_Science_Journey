@@ -1,4 +1,5 @@
 ## Evaluation Metrics for Clustering
+![image](https://github.com/fatihilhan42/Data_Science_Journey/assets/63750425/d51d15d6-e4fa-474c-ba17-5aea4d20c98a)
 
 ### Introduction
 

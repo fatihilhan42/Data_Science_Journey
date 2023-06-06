@@ -1,4 +1,6 @@
 ## Evaluation Metrics for Ranking and Recommendation Systems
+![image](https://github.com/fatihilhan42/Data_Science_Journey/assets/63750425/74c895c7-1cbd-49fa-9010-cbbe8f981403)
+
 
 ### Introduction
 Ranking and recommendation systems are widely used in various domains to provide personalized recommendations and rank items based on user preferences. Evaluating the performance of these systems requires specialized evaluation metrics that can measure the quality of recommendations and the ranking order. In this file, we will explore several common evaluation metrics used for ranking and recommendation systems.

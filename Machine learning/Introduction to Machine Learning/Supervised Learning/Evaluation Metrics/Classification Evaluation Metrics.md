@@ -1,4 +1,6 @@
 ## Classification Evaluation Metrics
+![image](https://github.com/fatihilhan42/Data_Science_Journey/assets/63750425/82460491-f36a-4e28-b5c0-fc77a23a0b64)
+
 
 ### Overview
 Classification evaluation metrics are used to assess the performance of machine learning models on classification tasks. These metrics provide insights into how well the model is classifying the input data into different classes. By evaluating various aspects of classification performance, we can determine the strengths and weaknesses of the model and make informed decisions.
