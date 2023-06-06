@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## Regression Evaluation Metrics
 
 ### Overview
@@ -121,9 +120,3 @@ Remember, the choice of evaluation metrics should align with the problem stateme
 
 Let's dive deeper into each evaluation metric and explore their applications in regression tasks.
 
-
-
-
-
-
->>>>>>> f6fb53553f8b29224de06b9d237f162607dfaa49
