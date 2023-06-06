@@ -1,4 +1,6 @@
 ## Evaluation Metrics for Imbalanced Datasets
+![image](https://github.com/fatihilhan42/Data_Science_Journey/assets/63750425/7b7a2421-1813-487c-b0a7-df59600848f8)
+
 
 ### Introduction
 
