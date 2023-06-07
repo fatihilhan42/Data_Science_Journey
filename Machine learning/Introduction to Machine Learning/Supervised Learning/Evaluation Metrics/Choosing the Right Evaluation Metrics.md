@@ -1,4 +1,6 @@
 ## Choosing the Right Evaluation Metrics
+![image](https://github.com/fatihilhan42/Data_Science_Journey/assets/63750425/0683ea3d-51c3-469e-8de5-32bc47ea6d5d)
+
 
 ### Introduction
 When evaluating the performance of a machine learning model, it is crucial to choose the right evaluation metrics that align with the specific problem and the desired goals. Different evaluation metrics provide insights into different aspects of model performance, and selecting appropriate metrics is essential to make informed decisions. In this file, we will discuss the factors to consider when choosing evaluation metrics and provide guidance on selecting the right metrics for various types of problems.
