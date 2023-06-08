@@ -40,5 +40,5 @@ In the following sections, we will explore various evaluation metrics and how th
 
 Remember, the choice of evaluation metrics should be aligned with the problem statement, the nature of the data, and the desired outcomes. A comprehensive understanding of evaluation metrics is essential for accurate assessment and interpretation of model performance.
 
-### Conclusion
+## Conclusion
 Evaluation metrics provide a quantitative measure to evaluate the performance of machine learning models. They play a vital role in model selection, performance monitoring, hyperparameter tuning, interpretability, and effective communication of results. By employing appropriate evaluation metrics, we can assess and compare models across various machine learning tasks. In the subsequent sections, we will delve into different evaluation metrics, exploring their definitions, applications
