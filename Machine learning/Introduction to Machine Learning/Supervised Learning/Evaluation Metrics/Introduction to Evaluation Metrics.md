@@ -17,7 +17,7 @@ Evaluation metrics serve several important purposes in machine learning:
 
 5. **Communication and Reporting:** Evaluation metrics facilitate effective communication of model performance to stakeholders, clients, or other members of a team. They provide a standardized way to express the effectiveness and limitations of a model.
 
-### Common Evaluation Metrics
+## Common Evaluation Metrics
 There is a wide range of evaluation metrics available, each suited for different types of machine learning tasks. Commonly used evaluation metrics include:
 
 - **Classification Metrics:** Accuracy, precision, recall, F1 score, confusion matrix, receiver operating characteristic (ROC) curve, area under the ROC curve (AUC-ROC).
