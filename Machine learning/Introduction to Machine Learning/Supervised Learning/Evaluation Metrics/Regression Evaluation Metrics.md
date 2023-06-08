@@ -1,4 +1,6 @@
 ## Regression Evaluation Metrics
+![image](https://github.com/fatihilhan42/Data_Science_Journey/assets/63750425/1c39eb2b-015f-4761-a7db-d7c7e0eba1eb)
+
 
 ### Overview
 Regression evaluation metrics are used to assess the performance of machine learning models on regression tasks. These metrics provide insights into how well the model is predicting continuous or numerical values. By evaluating various aspects of regression performance, we can determine the accuracy and precision of the model's predictions.
