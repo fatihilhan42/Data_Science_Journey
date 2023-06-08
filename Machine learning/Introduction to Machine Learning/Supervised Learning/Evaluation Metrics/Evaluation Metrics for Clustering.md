@@ -1,7 +1,7 @@
 ## Evaluation Metrics for Clustering
 ![image](https://github.com/fatihilhan42/Data_Science_Journey/assets/63750425/d51d15d6-e4fa-474c-ba17-5aea4d20c98a)
 
-### Introduction
+## Introduction
 
 Clustering is an unsupervised learning technique that groups similar data points into clusters based on their inherent patterns or characteristics. Evaluating the performance of clustering algorithms requires specialized evaluation metrics that can assess the quality of the obtained clusters. In this file, we will explore several common evaluation metrics used for clustering analysis.
 
