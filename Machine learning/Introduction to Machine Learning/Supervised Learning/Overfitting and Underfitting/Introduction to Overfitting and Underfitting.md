@@ -1,4 +1,6 @@
 ## Introduction to Overfitting and Underfitting
+![image](https://github.com/fatihilhan42/Data_Science_Journey/assets/63750425/f6c8b23e-f51d-47d5-bc06-734be83949f6)
+
 In machine learning, the goal is to build a model that can accurately generalize to unseen data. However, two common challenges that can hinder the performance of a model are overfitting and underfitting. Understanding these concepts is crucial for developing effective machine learning models.
 
 ### What is Overfitting?
