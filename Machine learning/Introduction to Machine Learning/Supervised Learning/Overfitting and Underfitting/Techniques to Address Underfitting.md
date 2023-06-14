@@ -1,4 +1,6 @@
 ## Techniques to Address Underfitting
+![image](https://github.com/fatihilhan42/Data_Science_Journey/assets/63750425/1a8cc404-2e88-43e9-9cdf-86770fe83d97)
+
 Underfitting occurs when a machine learning model is too simple and fails to capture the underlying patterns in the data. It typically results in poor performance on both the training and test data. To address underfitting and improve the model's performance, several techniques can be employed.
 
 1. Increase Model Complexity
