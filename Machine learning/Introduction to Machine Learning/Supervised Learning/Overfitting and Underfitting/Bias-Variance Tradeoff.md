@@ -1,4 +1,6 @@
 ## Bias-Variance Tradeoff
+![image](https://github.com/fatihilhan42/Data_Science_Journey/assets/63750425/ab9c03b5-d654-4dc5-a45e-06d981c66169)
+
 In machine learning, the bias-variance tradeoff is a fundamental concept that helps us understand the relationship between the complexity of a model and its ability to generalize to unseen data. It highlights the delicate balance between two sources of error: bias and variance.
 
 ### Bias
