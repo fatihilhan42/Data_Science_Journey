@@ -1,12 +1,15 @@
 ## Techniques to Address Overfitting
 Overfitting is a common problem in machine learning where a model performs well on the training data but fails to generalize to unseen data. It occurs when a model becomes too complex and starts to memorize noise or random fluctuations in the training data. To mitigate overfitting and improve the generalization ability of a model, several techniques can be employed.
 
-1. Regularization
+1. **Regularization**
+
 Regularization is a widely used technique to address overfitting. It adds a regularization term to the loss function, which penalizes complex models. This encourages the model to find simpler and smoother solutions that generalize better. The most common regularization techniques include:
 
-- L1 and L2 Regularization: L1 regularization (Lasso) and L2 regularization (Ridge) add a penalty term to the loss function based on the magnitudes of the model weights. This leads to shrinkage of the weights, reducing the impact of less important features.
+- **L1 and L2 Regularization:** 
+L1 regularization (Lasso) and L2 regularization (Ridge) add a penalty term to the loss function based on the magnitudes of the model weights. This leads to shrinkage of the weights, reducing the impact of less important features.
 
-- Dropout: Dropout is a regularization technique specific to deep neural networks. It randomly disables a fraction of the neurons during training, forcing the network to learn redundant representations and preventing over-reliance on specific neurons.
+- **Dropout:** 
+Dropout is a regularization technique specific to deep neural networks. It randomly disables a fraction of the neurons during training, forcing the network to learn redundant representations and preventing over-reliance on specific neurons.
 
 2. Cross-Validation
 Cross-validation is a technique to estimate the performance of a model on unseen data. It involves splitting the available data into multiple subsets (folds), training the model on a subset of the data, and evaluating its performance on the remaining fold. By averaging the results across different folds, we can obtain a more reliable estimate of the model's performance and identify if it is overfitting.
