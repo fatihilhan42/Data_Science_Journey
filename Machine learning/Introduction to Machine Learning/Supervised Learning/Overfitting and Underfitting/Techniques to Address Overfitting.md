@@ -11,19 +11,28 @@ L1 regularization (Lasso) and L2 regularization (Ridge) add a penalty term to th
 - **Dropout:** 
 Dropout is a regularization technique specific to deep neural networks. It randomly disables a fraction of the neurons during training, forcing the network to learn redundant representations and preventing over-reliance on specific neurons.
 
-2. Cross-Validation
+2. **Cross-Validation**
+
 Cross-validation is a technique to estimate the performance of a model on unseen data. It involves splitting the available data into multiple subsets (folds), training the model on a subset of the data, and evaluating its performance on the remaining fold. By averaging the results across different folds, we can obtain a more reliable estimate of the model's performance and identify if it is overfitting.
 
-3. Early Stopping
+3. **Early Stopping**
+
+
 Early stopping is a technique that monitors the model's performance during training and stops the training process when the performance on the validation set starts to deteriorate. It prevents the model from overfitting by stopping the training before it starts memorizing noise in the training data. Early stopping requires splitting the data into training and validation sets and monitoring the validation loss or error.
 
-4. Feature Selection
+4. **Feature Selection**
+
+
 Feature selection aims to identify the most informative features for the model while discarding irrelevant or redundant ones. By reducing the number of features, we can reduce the complexity of the model and mitigate the risk of overfitting. Various techniques, such as univariate feature selection, recursive feature elimination, and feature importance ranking, can be used for feature selection.
 
-5. Ensemble Methods
+5. **Ensemble Methods**
+
+
 Ensemble methods combine multiple models to make predictions. By averaging the predictions from different models, ensemble methods can reduce the impact of individual models that may overfit the data. Techniques such as bagging, random forests, and boosting are commonly used ensemble methods that can help alleviate overfitting.
 
-6. Data Augmentation
+6. **Data Augmentation**
+
+
 Data augmentation involves artificially increasing the size of the training data by applying various transformations, such as rotation, scaling, flipping, or adding noise. By introducing variations in the training data, data augmentation can help expose the model to a wider range of patterns and reduce overfitting.
 
 ### Conclusion
