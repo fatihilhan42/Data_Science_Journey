@@ -1,4 +1,6 @@
 ## Cross-Validation for Model Selection
+![image](https://github.com/fatihilhan42/Data_Science_Journey/assets/63750425/2f4be77b-a436-428e-af27-af2c39a060ac)
+
 Model selection is an important step in machine learning where we choose the best model from a set of candidate models. Cross-validation is a commonly used technique for model selection and evaluation. It helps us estimate the performance of different models on unseen data and enables us to make an informed decision about the best model to use.
 
 ### Introduction to Cross-Validation
