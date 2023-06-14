@@ -1,4 +1,6 @@
 ## Techniques to Address Overfitting
+![image](https://github.com/fatihilhan42/Data_Science_Journey/assets/63750425/51b9b95f-6706-44c2-a954-6ea61dc81a59)
+
 Overfitting is a common problem in machine learning where a model performs well on the training data but fails to generalize to unseen data. It occurs when a model becomes too complex and starts to memorize noise or random fluctuations in the training data. To mitigate overfitting and improve the generalization ability of a model, several techniques can be employed.
 
 1. **Regularization**
