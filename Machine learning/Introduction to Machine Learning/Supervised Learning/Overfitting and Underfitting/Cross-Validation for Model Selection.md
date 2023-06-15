@@ -1,17 +1,19 @@
 ## Cross-Validation for Model Selection
+![image](https://github.com/fatihilhan42/Data_Science_Journey/assets/63750425/2f4be77b-a436-428e-af27-af2c39a060ac)
+
 Model selection is an important step in machine learning where we choose the best model from a set of candidate models. Cross-validation is a commonly used technique for model selection and evaluation. It helps us estimate the performance of different models on unseen data and enables us to make an informed decision about the best model to use.
 
 ### Introduction to Cross-Validation
 Cross-validation is a resampling technique that divides the available data into multiple subsets or folds. The model is trained on a subset of the data called the training set and evaluated on the remaining subset called the validation set. This process is repeated multiple times, with each subset serving as the validation set once. The performance metrics obtained from each iteration are then averaged to provide an overall estimate of the model's performance.
 
 ### Types of Cross-Validation
-1. K-Fold Cross-Validation: In k-fold cross-validation, the data is divided into k equal-sized folds. The model is trained on k-1 folds and evaluated on the remaining fold. This process is repeated k times, with each fold serving as the validation set once. The performance metrics obtained from each fold are averaged to obtain the final performance estimate.
+1. **K-Fold Cross-Validation:** In k-fold cross-validation, the data is divided into k equal-sized folds. The model is trained on k-1 folds and evaluated on the remaining fold. This process is repeated k times, with each fold serving as the validation set once. The performance metrics obtained from each fold are averaged to obtain the final performance estimate.
 
-2. Stratified K-Fold Cross-Validation: Stratified k-fold cross-validation is similar to k-fold cross-validation, but it ensures that the class distribution in each fold is similar to the overall class distribution. This is particularly useful when dealing with imbalanced datasets where certain classes are underrepresented.
+2. **Stratified K-Fold Cross-Validation:** Stratified k-fold cross-validation is similar to k-fold cross-validation, but it ensures that the class distribution in each fold is similar to the overall class distribution. This is particularly useful when dealing with imbalanced datasets where certain classes are underrepresented.
 
-3. Leave-One-Out Cross-Validation (LOOCV): LOOCV is a special case of k-fold cross-validation where k is set to the number of samples in the dataset. In each iteration, the model is trained on all samples except one, which is used for evaluation. LOOCV provides a more reliable estimate of model performance but can be computationally expensive for large datasets.
+3. **Leave-One-Out Cross-Validation (LOOCV):** LOOCV is a special case of k-fold cross-validation where k is set to the number of samples in the dataset. In each iteration, the model is trained on all samples except one, which is used for evaluation. LOOCV provides a more reliable estimate of model performance but can be computationally expensive for large datasets.
 
-4. Holdout Cross-Validation: Holdout cross-validation involves splitting the data into a training set and a separate test set. The model is trained on the training set and evaluated on the test set. This approach is quick and simple but may not provide a robust estimate of model performance, especially when the dataset is small.
+4. **Holdout Cross-Validation:** Holdout cross-validation involves splitting the data into a training set and a separate test set. The model is trained on the training set and evaluated on the test set. This approach is quick and simple but may not provide a robust estimate of model performance, especially when the dataset is small.
 
 ### Benefits of Cross-Validation
 Cross-validation offers several benefits for model selection:
