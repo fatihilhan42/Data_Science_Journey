@@ -1,4 +1,6 @@
 ## Genetic Algorithms for Hyperparameter Tuning
+![image](https://github.com/fatihilhan42/Data_Science_Journey/assets/63750425/41ad1171-0c20-48fc-bdb9-1b097d1d3da4)
+
 Genetic algorithms (GAs) are optimization techniques inspired by the process of natural selection and evolution. They can be effectively applied to hyperparameter tuning in machine learning, providing an alternative approach to finding optimal hyperparameter configurations.
 
 ### How Genetic Algorithms Work
