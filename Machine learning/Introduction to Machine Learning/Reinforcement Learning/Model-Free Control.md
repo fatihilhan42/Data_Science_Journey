@@ -4,9 +4,9 @@ Model-Free Control is an essential aspect of reinforcement learning, where the a
 ### Policy Iteration
 Policy Iteration is a classical model-free control algorithm that alternates between policy evaluation and policy improvement. It starts with an initial policy and iteratively refines it to converge to the optimal policy. The two main steps of policy iteration are:
 
-1. Policy Evaluation: In this step, the value function or the action-value function is estimated under the current policy.
+1. **Policy Evaluation**: In this step, the value function or the action-value function is estimated under the current policy.
 
-2. Policy Improvement: After evaluating the current policy, the agent improves the policy by choosing actions that lead to states with higher value estimates.
+2. **Policy Improvement**: After evaluating the current policy, the agent improves the policy by choosing actions that lead to states with higher value estimates.
 
 ### Value Iteration
 Value Iteration is another model-free control algorithm that directly computes the optimal value function without explicitly improving a policy. It combines the ideas of dynamic programming and greedy policy improvement. Value iteration updates the value function in an iterative manner until it converges to the optimal values.
