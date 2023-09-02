@@ -1,7 +1,7 @@
 ## Reinforcement Learning in Natural Language Processing (NLP)
 Reinforcement Learning (RL) has found intriguing applications in the domain of Natural Language Processing (NLP), enabling systems to learn and optimize language-related tasks through interactions with an environment. RL has shown promise in various NLP tasks, ranging from language generation and machine translation to dialogue systems and information retrieval. In this article, we will explore some key applications of RL in NLP and the challenges faced in using RL for language-related tasks.
 
-Key Applications of RL in NLP
+**Key Applications of RL in NLP**
 1. Language Generation
 RL has been successfully employed in language generation tasks, such as text summarization, dialogue generation, and machine translation. By framing language generation as an RL problem, models can learn to generate fluent and coherent text by interacting with the environment and receiving rewards based on the quality of the generated output.
 
@@ -14,7 +14,7 @@ RL has shown promise in information retrieval tasks, such as question answering 
 4. Text Summarization
 RL has been employed in abstractive text summarization, where the model generates a concise and coherent summary of a given text. The RL agent receives rewards based on the quality and informativeness of the generated summary.
 
-Challenges in Using RL for NLP
+**Challenges in Using RL for NLP**
 1. Sparse Rewards
 In many NLP tasks, the rewards for RL can be sparse, making it challenging for the agent to learn effectively. Designing reward functions that provide meaningful feedback for incremental progress is essential to train RL models successfully.
 

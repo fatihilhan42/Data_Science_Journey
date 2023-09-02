@@ -6,9 +6,9 @@ In the MAB problem, the agent is presented with a set of "arms," each associated
 ### Problem Formulation
 In a typical MAB problem, the agent faces the following challenges:
 
-- Exploration: The agent needs to explore different arms to gather information about their reward distributions and identify the best arm(s).
+- **Exploration**: The agent needs to explore different arms to gather information about their reward distributions and identify the best arm(s).
 
-- Exploitation: The agent should exploit the arms that have shown higher rewards in the past to maximize the accumulated reward.
+- **Exploitation**: The agent should exploit the arms that have shown higher rewards in the past to maximize the accumulated reward.
 
 The trade-off between exploration and exploitation is a central theme in MAB problems, similar to the exploration-exploitation dilemma in reinforcement learning.
 
@@ -30,21 +30,21 @@ Semi-bandits are a generalization of the MAB problem where the agent receives pa
 ### Algorithms for Multi-Armed Bandits
 Several algorithms are used to solve MAB problems and balance exploration and exploitation. Some popular algorithms include:
 
-- Epsilon-Greedy: The agent selects the arm with the highest estimated reward most of the time (exploitation) but occasionally explores other arms with a small probability (exploration).
+- **Epsilon-Greedy**: The agent selects the arm with the highest estimated reward most of the time (exploitation) but occasionally explores other arms with a small probability (exploration).
 
-- UCB (Upper Confidence Bound): This algorithm uses confidence intervals to select arms with high upper bounds on their expected rewards, encouraging exploration of uncertain arms.
+- **UCB (Upper Confidence Bound)**: This algorithm uses confidence intervals to select arms with high upper bounds on their expected rewards, encouraging exploration of uncertain arms.
 
-- Thompson Sampling: Thompson Sampling is a Bayesian algorithm that samples arms from their posterior distribution, balancing exploration and exploitation based on uncertainty.
+- **Thompson Sampling**: Thompson Sampling is a Bayesian algorithm that samples arms from their posterior distribution, balancing exploration and exploitation based on uncertainty.
 
 ### Applications
 The Multi-Armed Bandits problem arises in various real-world scenarios, such as:
 
-- Online Advertising: In online advertising, advertisers must decide which ad to display to users to maximize clicks and conversions.
+- **Online Advertising**: In online advertising, advertisers must decide which ad to display to users to maximize clicks and conversions.
 
-- Clinical Trials: In medical research, multi-armed bandits are used to efficiently allocate resources among different treatments in clinical trials.
+- **Clinical Trials**: In medical research, multi-armed bandits are used to efficiently allocate resources among different treatments in clinical trials.
 
-- Recommender Systems: Recommender systems use MAB algorithms to determine which items to recommend to users for personalized recommendations.
+- **Recommender Systems**: Recommender systems use MAB algorithms to determine which items to recommend to users for personalized recommendations.
 
-- A/B Testing: A/B testing is a form of multi-armed bandit problem where different versions of a webpage or application are tested to find the best-performing one.
+- **A/B Testing**: A/B testing is a form of multi-armed bandit problem where different versions of a webpage or application are tested to find the best-performing one.
 
 The Multi-Armed Bandits problem serves as a fundamental building block for more complex reinforcement learning and decision-making tasks and provides valuable insights into the exploration-exploitation trade-off in uncertain environments. Various algorithms and techniques have been developed to tackle MAB problems and achieve effective decision-making in a wide range of applications.

@@ -5,13 +5,13 @@ Reinforcement Learning (RL) can be broadly categorized into two main approaches:
 Model-free RL is a popular and widely used approach in reinforcement learning. In model-free RL, the agent learns a policy directly from interactions with the environment without explicitly building a model of the environment's dynamics. The policy is usually represented as a mapping from states to actions, and the agent uses trial-and-error learning to improve its policy over time.
 
 ### Advantages of Model-Free RL:
-Simplicity: Model-free methods are generally simpler to implement and require fewer assumptions about the environment's dynamics.
+**Simplicity**: Model-free methods are generally simpler to implement and require fewer assumptions about the environment's dynamics.
 
-Flexibility: Model-free RL can be applied to a wide range of problems, including those with complex and unknown dynamics.
+**Flexibility**: Model-free RL can be applied to a wide range of problems, including those with complex and unknown dynamics.
 
-Sample Efficiency: Model-free RL does not require extensive data collection to build a model, making it more sample-efficient in some cases.
+**Sample Efficiency**: Model-free RL does not require extensive data collection to build a model, making it more sample-efficient in some cases.
 
-Robustness: Model-free methods are often more robust to uncertainties in the environment, as they do not rely on accurate models.
+**Robustness**: Model-free methods are often more robust to uncertainties in the environment, as they do not rely on accurate models.
 
 ### When to use Model-Free RL:
 Model-free RL is well-suited for problems where the dynamics of the environment are complex, unknown, or hard to model accurately. It is also suitable for problems with large state and action spaces, as it does not require storing or computing transition probabilities explicitly.

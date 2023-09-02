@@ -35,13 +35,13 @@ Advantage Actor-Critic (A2C) is a hybrid algorithm that combines elements of bot
 ### Applications
 Policy gradient methods have shown great success in a wide range of applications, including:
 
-- Robotics: Training robots to perform complex tasks, such as walking or manipulation, in dynamic environments.
+- **Robotics**: Training robots to perform complex tasks, such as walking or manipulation, in dynamic environments.
 
-- Game Playing: Teaching agents to play games, such as chess, Go, or video games, with human-level or superhuman performance.
+- **Game Playing**: Teaching agents to play games, such as chess, Go, or video games, with human-level or superhuman performance.
 
-- Natural Language Processing: Training language models to generate coherent and contextually relevant responses in conversational agents.
+- **Natural Language Processing**: Training language models to generate coherent and contextually relevant responses in conversational agents.
 
-- Autonomous Vehicles: Teaching self-driving cars to make safe and efficient driving decisions in real-world traffic scenarios.
+- **Autonomous Vehicles**: Teaching self-driving cars to make safe and efficient driving decisions in real-world traffic scenarios.
 
 ### Challenges
 Policy gradient methods face several challenges, including high variance in gradient estimates, convergence issues, and the exploration-exploitation trade-off. Researchers continue to develop novel techniques and algorithms to overcome these challenges and improve the efficiency and stability of policy gradient methods.
