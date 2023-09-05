@@ -25,9 +25,9 @@ Monte Carlo methods are another approach for model-free prediction. Instead of u
 ### On-Policy vs. Off-Policy Learning
 In model-free prediction, there are two main types of learning:
 
-1. On-Policy Learning: In on-policy learning, the agent learns the value function while following the same policy that it is trying to evaluate.
+1. **On-Policy Learning**: In on-policy learning, the agent learns the value function while following the same policy that it is trying to evaluate.
 
-2. Off-Policy Learning: In off-policy learning, the agent learns the value function while following a different policy (often an exploratory policy) from the one it is evaluating.
+2. **Off-Policy Learning**: In off-policy learning, the agent learns the value function while following a different policy (often an exploratory policy) from the one it is evaluating.
 
 ### Applications
 Model-Free Prediction is used in various real-world applications, such as:
