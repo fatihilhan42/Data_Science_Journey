@@ -1,7 +1,7 @@
 ## Conclusion
 In this exploration of Reinforcement Learning (RL), we have ventured into a fascinating world where agents learn to make decisions through interaction with the environment. RL has shown incredible promise in solving complex problems and has found applications in various domains, from robotics and control to finance and natural language processing.
 
-We began our journey by understanding the core concepts of RL, including Markov Decision Processes (MDPs) and the Bellman equation. We then delved into different RL methods, such as Dynamic Programming, Model-Free Prediction, and Model-Free Control, which enabled agents to learn from experience without explicit knowledge of the environment model.
+'We began our journey by understanding the core concepts of RL, including Markov Decision Processes (MDPs) and the Bellman equation. We then delved into different RL methods, such as Dynamic Programming, Model-Free Prediction, and Model-Free Control, which enabled agents to learn from experience without explicit knowledge of the environment model.
 
 The exploration-exploitation dilemma proved to be a crucial aspect of RL, as agents need to balance between exploring new actions to gain knowledge and exploiting learned policies to achieve optimal rewards.
 
