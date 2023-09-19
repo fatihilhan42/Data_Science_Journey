@@ -1,7 +1,7 @@
-Cross-Validation
+**Cross-Validation**
 Cross-validation is a crucial technique in model selection and evaluation. It helps assess a machine learning model's performance on unseen data and provides a more accurate estimate of how well the model is likely to perform in practice.
 
-Why Cross-Validation?
+**Why Cross-Validation?**
 Cross-validation addresses some common challenges in model training and evaluation:
 
 Overfitting Assessment: Cross-validation helps detect overfitting, where a model performs exceptionally well on the training data but poorly on unseen data. Overfitting can occur when a model is too complex and captures noise in the training data.
