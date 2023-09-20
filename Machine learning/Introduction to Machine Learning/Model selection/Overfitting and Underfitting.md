@@ -33,32 +33,32 @@ Lack of relevant features.
 ### Techniques to Address Overfitting and Underfitting
 
 1. Regularization
-Description: Regularization techniques add penalties to the model's loss function to discourage overly complex models. Common regularization methods include L1 and L2 regularization.
+**Description:** Regularization techniques add penalties to the model's loss function to discourage overly complex models. Common regularization methods include L1 and L2 regularization.
 
 Use Case: Regularization helps prevent overfitting by reducing the magnitudes of model parameters.
 
 2. Cross-Validation
-Description: Cross-validation helps evaluate a model's performance on multiple subsets of the data, enabling the detection of overfitting and underfitting.
+**Description:** Cross-validation helps evaluate a model's performance on multiple subsets of the data, enabling the detection of overfitting and underfitting.
 
 Use Case: Cross-validation is essential for model selection and hyperparameter tuning.
 
 3. Feature Selection
-Description: Feature selection involves choosing a subset of the most relevant features, reducing the risk of overfitting caused by noisy or irrelevant features.
+**Description:** Feature selection involves choosing a subset of the most relevant features, reducing the risk of overfitting caused by noisy or irrelevant features.
 
 Use Case: Feature selection simplifies the model while preserving predictive power.
 
 4. Early Stopping
-Description: Early stopping involves monitoring the model's performance on a validation dataset during training and stopping when performance begins to degrade.
+**Description:** Early stopping involves monitoring the model's performance on a validation dataset during training and stopping when performance begins to degrade.
 
 Use Case: Early stopping prevents overfitting by halting training at the right moment.
 
 5. Ensembling
-Description: Ensemble methods combine predictions from multiple models to improve generalization and reduce overfitting.
+**Description:** Ensemble methods combine predictions from multiple models to improve generalization and reduce overfitting.
 
 Use Case: Ensembling helps reduce the impact of individual model overfitting.
 
 6. More Data
-Description: Increasing the amount of training data can often help mitigate overfitting, as the model has more examples to learn from.
+**Description:** Increasing the amount of training data can often help mitigate overfitting, as the model has more examples to learn from.
 
 Use Case: Gathering more data may be necessary when overfitting persists.
 
