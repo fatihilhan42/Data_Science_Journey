@@ -1,39 +1,39 @@
-Cross-Validation
+**Cross-Validation**
 Cross-validation is a crucial technique in model selection and evaluation. It helps assess a machine learning model's performance on unseen data and provides a more accurate estimate of how well the model is likely to perform in practice.
 
-Why Cross-Validation?
+**Why Cross-Validation?**
 Cross-validation addresses some common challenges in model training and evaluation:
 
-Overfitting Assessment: Cross-validation helps detect overfitting, where a model performs exceptionally well on the training data but poorly on unseen data. Overfitting can occur when a model is too complex and captures noise in the training data.
+**Overfitting Assessment:** Cross-validation helps detect overfitting, where a model performs exceptionally well on the training data but poorly on unseen data. Overfitting can occur when a model is too complex and captures noise in the training data.
 
-Model Generalization: By evaluating a model on multiple subsets of the data, cross-validation provides a more robust measure of a model's ability to generalize to new, unseen examples.
+**Model Generalization:** By evaluating a model on multiple subsets of the data, cross-validation provides a more robust measure of a model's ability to generalize to new, unseen examples.
 
-Hyperparameter Tuning: When tuning hyperparameters (e.g., learning rate, regularization strength), cross-validation allows you to assess which parameter values result in the best model performance.
+**Hyperparameter Tuning:** When tuning hyperparameters (e.g., learning rate, regularization strength), cross-validation allows you to assess which parameter values result in the best model performance.
 
 Common Cross-Validation Techniques
 There are several cross-validation techniques, with k-fold cross-validation being the most widely used. Here's an overview of some common methods:
 
-1. k-Fold Cross-Validation
+1. **k-Fold Cross-Validation**
 How It Works: The dataset is divided into k equally sized folds. The model is trained and evaluated k times, with each fold used once as the validation data while the remaining k-1 folds form the training data.
 
 Advantages: Provides a more robust estimate of model performance, especially when data is limited.
 
-2. Stratified k-Fold Cross-Validation
+2. **Stratified k-Fold Cross-Validation**
 How It Works: Similar to k-fold, but it ensures that each fold's class distribution is similar to the overall dataset. Useful for imbalanced datasets.
 
 Advantages: Ensures a representative distribution of classes in each fold.
 
-3. Leave-One-Out Cross-Validation (LOOCV)
+3. **Leave-One-Out Cross-Validation (LOOCV)**
 How It Works: Each data point is treated as a single-fold. The model is trained on all but one data point and validated on the omitted point.
 
 Advantages: Provides a comprehensive assessment but can be computationally expensive for large datasets.
 
-4. Time Series Cross-Validation
+4. **Time Series Cross-Validation**
 How It Works: Designed for time series data, it maintains the temporal order of data. The training set includes data before a given time point, and the test set includes data after that point.
 
 Advantages: Suitable for time-dependent models, such as forecasting.
 
-5. Shuffle-Split Cross-Validation
+5. **Shuffle-Split Cross-Validation**
 How It Works: Randomly shuffles the data and then splits it into training and validation sets multiple times. Useful when you want to control the number of iterations and the proportion of data used for validation.
 
 Advantages: Offers a balance between randomness and control.
