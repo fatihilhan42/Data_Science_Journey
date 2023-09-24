@@ -4,7 +4,7 @@ Deep learning has gained prominence in various domains, and selecting the right 
 ### Why Model Selection Matters in Deep Learning
 Model selection in deep learning involves choosing the following key components:
 
-1. Architecture: Deciding on the structure of the neural network, including the number of layers, types of layers (e.g., convolutional, recurrent, fully connected), and their connectivity.
+1. **Architecture:** Deciding on the structure of the neural network, including the number of layers, types of layers (e.g., convolutional, recurrent, fully connected), and their connectivity.
 
 2. Hyperparameters: Tuning hyperparameters such as learning rate, batch size, dropout rate, weight decay, and activation functions to optimize the model's performance.
 
