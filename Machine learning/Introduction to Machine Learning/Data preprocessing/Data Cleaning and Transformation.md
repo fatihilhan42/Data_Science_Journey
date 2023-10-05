@@ -41,17 +41,17 @@ print(data.head())
 ```
 In this example, we perform various data cleaning and transformation steps:
 
-1. Cleaning missing values: We fill missing values in the 'age' column with the mean, 'income' column with the median, and 'education' column with 'Unknown' label using the fillna() function.
+**1. Cleaning missing values:** We fill missing values in the 'age' column with the mean, 'income' column with the median, and 'education' column with 'Unknown' label using the fillna() function.
 
-2. Encoding categorical variables: We convert the 'gender' column from 'Male' and 'Female' to numeric values (0 and 1) using the **map()** function. We also one-hot encode the 'education' column using the **get_dummies()** function to create binary indicator variables.
+**2. Encoding categorical variables:** We convert the 'gender' column from 'Male' and 'Female' to numeric values (0 and 1) using the **map()** function. We also one-hot encode the 'education' column using the **get_dummies()** function to create binary indicator variables.
 
-3. Scaling numerical variables: We use the **MinMaxScaler()** to scale the 'age' and 'income' columns to a specified range (usually [0, 1]).
+**3. Scaling numerical variables:** We use the **MinMaxScaler()** to scale the 'age' and 'income' columns to a specified range (usually [0, 1]).
 
-4. andling outliers: We define a function **remove_outliers()** that uses z-scores to identify and remove outliers in the 'income' column.
+**4. andling outliers:** We define a function **remove_outliers()** that uses z-scores to identify and remove outliers in the 'income' column.
 
-5. Feature engineering: We create new features by squaring the 'age' column and taking the natural logarithm of the 'income' column.
+**5. Feature engineering:** We create new features by squaring the 'age' column and taking the natural logarithm of the 'income' column.
 
-6. Dropping unnecessary columns: We drop the 'education_Unknown' column as it is no longer needed.
+**6. Dropping unnecessary columns:** We drop the 'education_Unknown' column as it is no longer needed.
 
 Finally, we print the cleaned and transformed dataset using **print(data.head())**.
 
