@@ -18,4 +18,4 @@ Remember that learning SQL is an ongoing process, and practice and exploration a
 
 We hope this repository has provided you with valuable insights and resources to embark on your SQL journey or enhance your existing SQL skills. Keep learning, practicing, and applying SQL in your projects and data-driven endeavors. The world of data awaits, and SQL is your key to unlock its potential.
 
-Happy querying and data exploring!
+**Happy querying and data exploring!**
