@@ -87,6 +87,6 @@ JOIN orders ON customers.customer_id = orders.customer_id;
 ```
 
 ### Conclusion
-These SQL syntax examples cover some of the most frequently used operations in SQL. The ability to retrieve, insert, update, and delete data, as well as sort, aggregate, and join tables, are essential for working with databases. As you become more familiar with SQL, you'll be able to tackle more complex queries and database tasks.
+These **SQL**syntax examples cover some of the most frequently used operations in SQL. The ability to retrieve, insert, update, and delete data, as well as sort, aggregate, and join tables, are essential for working with databases. As you become more familiar with SQL, you'll be able to tackle more complex queries and database tasks.
 
 In the following sections, we will explore advanced SQL techniques and practices to enhance your data management skills.
