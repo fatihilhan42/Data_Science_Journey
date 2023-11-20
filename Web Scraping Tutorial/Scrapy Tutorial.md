@@ -41,7 +41,7 @@ This spider defines a single spider with the name myspider and a start URL of ht
 
 ## Running a Scrapy spider
 
-To run a Scrapy spider, you can use the scrapy crawl command. For example:
+To run a **Scrapy spider**, you can use the scrapy crawl command. For example:
 
 ```Python
 scrapy crawl myspider

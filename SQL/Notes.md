@@ -1,6 +1,6 @@
 # SQL Notes
 
-This document serves as a personal notebook for recording notes, insights, and tips related to SQL and the content in this repository. Feel free to add your own notes and keep them organized here.
+This document serves as a personal notebook for recording notes, insights, and tips related to **SQL** and the content in this repository. Feel free to add your own notes and keep them organized here.
 
 ## General SQL Tips
 

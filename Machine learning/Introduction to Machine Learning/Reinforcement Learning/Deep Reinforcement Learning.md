@@ -21,15 +21,15 @@ Actor-Critic with Experience Replay (ACER) is a state-of-the-art deep reinforcem
 ### Applications
 Deep reinforcement learning has achieved remarkable success in a wide range of applications, including:
 
-- Game Playing: Deep RL algorithms have outperformed human players in games like Go, Chess, and various Atari games.
+- **Game Playing**: Deep RL algorithms have outperformed human players in games like Go, Chess, and various Atari games.
 
-- Robotics: Deep RL is used to train robotic agents to perform complex tasks, such as locomotion, manipulation, and assembly.
+- **Robotics**: Deep RL is used to train robotic agents to perform complex tasks, such as locomotion, manipulation, and assembly.
 
-- Autonomous Vehicles: Self-driving cars utilize deep RL techniques to navigate complex traffic scenarios.
+- **Autonomous Vehicles:** Self-driving cars utilize deep RL techniques to navigate complex traffic scenarios.
 
-- Finance: Deep RL is applied to optimize trading strategies and portfolio management.
+- **Finance:** Deep RL is applied to optimize trading strategies and portfolio management.
 
-- Natural Language Processing: Dialogue systems and language models can be trained using deep RL.
+- **Natural Language Processing:** Dialogue systems and language models can be trained using deep RL.
 
 ### Challenges
 While deep reinforcement learning has shown great promise, it also comes with several challenges. Deep RL algorithms require significant computational resources and large amounts of data for effective training. The instability of training deep networks can lead to convergence issues and requires careful hyperparameter tuning. Additionally, safety and ethical considerations arise when applying deep RL in real-world systems.
