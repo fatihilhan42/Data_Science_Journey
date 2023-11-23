@@ -1,6 +1,6 @@
 # Advanced Deep Learning
 
-In this section, we'll explore advanced topics and techniques that take deep learning to a higher level of complexity and capability.
+In this section, we'll explore advanced topics and techniques that take **deep learning** to a higher level of complexity and capability.
 
 ## Advanced Topics
 
