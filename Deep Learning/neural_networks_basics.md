@@ -33,7 +33,7 @@ model = tf.keras.Sequential([
 
 # Print the model summary
 model.summary()
-
+```
 
 ## Backpropagation
 Training a neural network involves adjusting the weights based on the error between predictions and actual values. Backpropagation is the process of updating weights backward through the network.
