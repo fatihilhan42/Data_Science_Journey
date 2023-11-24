@@ -6,7 +6,7 @@ Neural networks are a fundamental concept in deep learning. They are composed of
 
 A neural network consists of layers, each containing neurons. The input layer receives the initial data, hidden layers process information, and the output layer produces the final result.
 
-![Neural Network](link_to_neural_network_image.png)
+![Neural Network](https://github.com/fatihilhan42/Data_Science_Journey/assets/63750425/46a00411-abe3-48da-b1ab-6a679a2fe2d3)
 
 ## Activation Functions
 
