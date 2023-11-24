@@ -35,6 +35,7 @@ model = tf.keras.Sequential([
 model.summary()
 ```
 
+
 ## Backpropagation
 Training a neural network involves adjusting the weights based on the error between predictions and actual values. Backpropagation is the process of updating weights backward through the network.
 
@@ -42,7 +43,6 @@ Training a neural network involves adjusting the weights based on the error betw
 This is a basic overview of neural networks. Understanding these concepts is crucial for diving deeper into the world of deep learning.
 
 For further reading, check out the TensorFlow documentation for building and training neural networks. https://www.tensorflow.org/guide/keras?hl=tr
-
 
 
 Remember to replace "link_to_neural_network_image.png" with the actual link to an image representing a basic neural network structure if you have one. Feel free to enhance or modify the content to better suit your repository's style and the level of detail you want to provide.
