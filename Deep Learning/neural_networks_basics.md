@@ -6,7 +6,7 @@ Neural networks are a fundamental concept in deep learning. They are composed of
 
 A neural network consists of layers, each containing neurons. The input layer receives the initial data, hidden layers process information, and the output layer produces the final result.
 
-![Neural Network](link_to_neural_network_image.png)
+![Neural Network](https://github.com/fatihilhan42/Data_Science_Journey/assets/63750425/46a00411-abe3-48da-b1ab-6a679a2fe2d3)
 
 ## Activation Functions
 
@@ -33,6 +33,7 @@ model = tf.keras.Sequential([
 
 # Print the model summary
 model.summary()
+```
 
 
 ## Backpropagation
@@ -42,7 +43,6 @@ Training a neural network involves adjusting the weights based on the error betw
 This is a basic overview of neural networks. Understanding these concepts is crucial for diving deeper into the world of deep learning.
 
 For further reading, check out the TensorFlow documentation for building and training neural networks. https://www.tensorflow.org/guide/keras?hl=tr
-
 
 
 Remember to replace "link_to_neural_network_image.png" with the actual link to an image representing a basic neural network structure if you have one. Feel free to enhance or modify the content to better suit your repository's style and the level of detail you want to provide.
