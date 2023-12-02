@@ -63,7 +63,7 @@ Dense: The fully connected layer for prediction.
 compile and fit: Compile and train the model, respectively.
 Adjust the model architecture and parameters based on your specific sequence modeling task.
 
-For more information and advanced techniques, refer to the TensorFlow RNN documentation.https://www.tensorflow.org/guide/keras/working_with_rnns
+For more information and advanced techniques, refer to the [TensorFlow RNN documentation.](https://www.tensorflow.org/guide/keras/working_with_rnns)
 
 
 
