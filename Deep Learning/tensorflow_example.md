@@ -46,7 +46,7 @@ compile: Configures the model for training with a specified loss function, optim
 fit: Trains the model on the input data for a specified number of epochs and batch size.
 Adjust the model architecture and parameters based on your specific use case and dataset.
 
-For more detailed information, refer to the official TensorFlow documentation. https://www.tensorflow.org/guide/keras/sequential_model?hl=tr
+For more detailed information, refer to the official [TensorFlow documentation](https://www.tensorflow.org/guide/keras/sequential_model?hl=tr)
 
 
 Feel free to customize the code and explanations to better suit your needs or add more details based on your preferences.
