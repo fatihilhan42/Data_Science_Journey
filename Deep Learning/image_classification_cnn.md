@@ -57,7 +57,7 @@ Dense: Fully connected layers for final classification.
 compile and fit: Compile and train the model, respectively.
 Adjust the model architecture and parameters based on your specific use case and dataset.
 
-For more information on CNNs with TensorFlow, refer to the official documentation. https://www.tensorflow.org/tutorials/images/cnn?hl=tr
+For more information on CNNs with TensorFlow, refer to the [official documentation](https://www.tensorflow.org/tutorials/images/cnn?hl=tr)
 
 
 
