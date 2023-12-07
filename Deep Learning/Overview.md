@@ -21,7 +21,7 @@ Deep learning has found applications in various domains, including:
 - **Speech Recognition:** Converting spoken language into text.
 - **Healthcare:** Disease diagnosis from medical images.
 
-## Getting Started
+### Getting Started
 
 If you're new to deep learning, the following steps will help you get started:
 
