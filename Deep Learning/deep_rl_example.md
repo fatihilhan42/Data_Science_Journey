@@ -4,7 +4,7 @@ Deep Reinforcement Learning (DRL) is a field of machine learning where agents le
 
 ## Installation
 
-Ensure you have TensorFlow installed:
+Ensure you have **TensorFlow** installed:
 
 ```bash
 pip install tensorflow
