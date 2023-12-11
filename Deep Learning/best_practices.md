@@ -1,6 +1,6 @@
 # Best Practices for Deep Learning Model Development
 
-Building and deploying deep learning models require careful consideration of various factors. Here are some best practices to enhance the effectiveness and maintainability of your deep learning projects.
+Building and deploying deep learning models require careful consideration of various factors. Here are some best practices to enhance the effectiveness and maintainability of your **deep learning** projects.
 
 ## 1. Data Preparation
 
