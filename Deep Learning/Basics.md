@@ -8,7 +8,7 @@ In this section, we'll delve into the fundamental concepts that form the backbon
 
 Activation functions play a crucial role in neural networks by introducing non-linearities to the model. Common activation functions include:
 
-- **Sigmoid:** Useful in the output layer for binary classification.**
+- **Sigmoid:** Useful in the output layer for binary classification.
 - **ReLU (Rectified Linear Unit):** Popular for hidden layers, introducing non-linearity.
 - **Tanh:** Similar to the sigmoid but maps values to the range [-1, 1].
 
