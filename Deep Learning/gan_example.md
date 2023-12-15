@@ -59,7 +59,7 @@ Reshape, Flatten: Reshape layers for transforming data between 1D and 2D.
 compile: Configures the model for training with the specified optimizer and loss.
 This example provides a simplified overview. In a real-world scenario, GANs involve a more complex training process and often use convolutional layers for image generation.
 
-For more in-depth information on GANs with TensorFlow, consider exploring the official TensorFlow GAN tutorial.
+For more in-depth information on GANs with TensorFlow, consider exploring the official [TensorFlow GAN tutorial](https://www.tensorflow.org/tutorials/generative/dcgan?hl=tr).
 
 
 Feel free to customize the code and explanations based on your preferences or add more details depending on your audience and the level of detail you want to provide.
