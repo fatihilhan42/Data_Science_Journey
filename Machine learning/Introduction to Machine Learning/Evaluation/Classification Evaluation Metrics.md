@@ -37,13 +37,13 @@ Classification is a common task in machine learning where the goal is to categor
 
 A confusion matrix provides a comprehensive view of a classification model's performance. It tabulates true positives (TP), true negatives (TN), false positives (FP), and false negatives (FN).
 
-True Positives (TP) - Instances correctly classified as positive.
+**True Positives (TP)** - Instances correctly classified as positive.
 
-True Negatives (TN) - Instances correctly classified as negative.
+**True Negatives (TN)** - Instances correctly classified as negative.
 
-False Positives (FP) - Instances incorrectly classified as positive.
+**False Positives (FP)** - Instances incorrectly classified as positive.
 
-False Negatives (FN) - Instances incorrectly classified as negative.
+**False Negatives (FN)** - Instances incorrectly classified as negative.
 
 
 ## Choosing the Right Metrics
