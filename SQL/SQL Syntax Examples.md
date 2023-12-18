@@ -5,7 +5,7 @@ In this section, we'll explore common SQL queries to perform various operations 
 **SELECT Statement**
 The SELECT statement retrieves data from one or more tables. Here are some examples:
 
-Example 1: Retrieve all columns from a table.
+**Example 1:** Retrieve all columns from a table.
 
 ```sql
 SELECT * FROM employees;
