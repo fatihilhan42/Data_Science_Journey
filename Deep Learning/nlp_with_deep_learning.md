@@ -64,7 +64,7 @@ Embedding: Represents each word with a vector.
 LSTM: Long Short-Term Memory layer for sequence modeling.
 Dense: Fully connected layer for the final prediction.
 compile and fit: Compile and train the model, respectively.
-For more advanced NLP tasks and techniques, consider exploring libraries like spaCy and NLTK and reviewing the TensorFlow NLP documentation. https://www.tensorflow.org/tutorials/text?hl=tr
+For more advanced NLP tasks and techniques, consider exploring libraries like spaCy and NLTK and reviewing the [TensorFlow NLP documentation](https://www.tensorflow.org/tutorials/text?hl=tr)
 
 
 Feel free to modify the code and explanations to better suit your needs or add more details based on your preferences.
