@@ -33,11 +33,11 @@ Gaussian Mixture Model is a probabilistic clustering algorithm that models the d
 ### Applications of Clustering
 Clustering has a wide range of applications, including:
 
-- Customer Segmentation: Grouping customers based on their purchasing behavior and preferences.
-- Image Segmentation: Segmenting objects or regions of interest in images.
-- Anomaly Detection: Identifying rare events or outliers in datasets.
-- Document Clustering: Grouping similar documents based on their content.
-- Social Network Analysis: Identifying communities or groups within social networks.
+- **Customer Segmentation:** Grouping customers based on their purchasing behavior and preferences.
+- **Image Segmentation:** Segmenting objects or regions of interest in images.
+- **Anomaly Detection:** Identifying rare events or outliers in datasets.
+- **Document Clustering:** Grouping similar documents based on their content.
+- **Social Network Analysis:** Identifying communities or groups within social networks.
 
 In the following sections, we will delve deeper into these clustering algorithms, provide examples of their implementation in Python using popular libraries, and discuss evaluation metrics to assess the quality of clustering results.
 
