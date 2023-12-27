@@ -51,11 +51,11 @@ Bayesian optimization is a more advanced method for hyperparameter tuning. In th
 
 The basic steps of Bayesian optimization are:
 
-1. Define a probabilistic model to represent the objective function.
-2. Use the model to select the next set of hyperparameters to evaluate.
-3. Evaluate the objective function for the selected hyperparameters.
-4. Update the model with the new data.
-5. Repeat steps 2-4 until convergence.
+1. **Define a probabilistic model to represent the objective function.**
+2. **Use the model to select the next set of hyperparameters to evaluate.**
+3. **Evaluate the objective function for the selected hyperparameters.**
+4. **Update the model with the new data.**
+5. **Repeat steps 2-4 until convergence.**
 
 There are several popular libraries for implementing Bayesian optimization in Python, such as Hyperopt, Optuna, and BayesOpt. These libraries provide convenient interfaces for defining search spaces, defining the objective function, and running the optimization process.
 
