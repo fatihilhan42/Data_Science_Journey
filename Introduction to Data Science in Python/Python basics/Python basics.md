@@ -187,7 +187,7 @@ finally:
     print("This will always be executed")
 ```
 
-That concludes the "Python Basics" study. 
+That concludes the **"Python Basics"** study. 
 I hope you have learned the fundamentals of the Python programming language and are ready to start using it for data science tasks.
 
 
