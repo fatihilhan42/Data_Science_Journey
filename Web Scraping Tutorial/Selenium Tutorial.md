@@ -115,7 +115,7 @@ element = WebDriverWait(driver, 10).until(
 For more information on using Selenium, you can refer to the following resources:
 
 - [The Selenium documentation](https://selenium.dev/documentation/en/)
-- The Selenium tutorial on the Python documentation site: https://docs.python.org/3/library/selenium.html
+- [The Selenium tutorial on the Python documentation site:](https://docs.python.org/3/library/selenium.html)
 - A comprehensive guide to web scraping with Python and Selenium: https://www.scrapingbee.com/blog/a-comprehensive-guide-to-web-scraping-with-python-and-selenium/
 - A tutorial on using Selenium with Python to scrape data from dynamic websites: https://towardsdatascience.com/web-scraping-dynamic-websites-with-python-and-selenium-885955e6c1e6
 - A tutorial on web scraping with Selenium and Beautiful Soup: https://www.dataquest.io/blog/web-scraping-beautifulsoup/
