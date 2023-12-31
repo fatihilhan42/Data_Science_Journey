@@ -29,4 +29,4 @@ If you're new to deep learning, the following steps will help you get started:
 2. **Hands-On Practice:** Apply your knowledge through coding exercises and projects.
 3. **Explore Advanced Topics:** Dive into convolutional neural networks (CNNs), recurrent neural networks (RNNs), and transfer learning.
 
-This overview sets the stage for a deeper exploration of deep learning concepts in the subsequent sections.
+This overview sets the stage for a deeper exploration of **deep learning** concepts in the subsequent sections.
